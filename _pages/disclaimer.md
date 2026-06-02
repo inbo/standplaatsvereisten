@@ -7,45 +7,46 @@ permalink: /disclaimer/
 layout: base
 ---
 
-## Legal notice
-This legal notice governs access to and use of the Peatland restoration website. By accessing and using this website, the user agrees to comply with the present terms and conditions.
-The website [https://ecorestoration.github.io/nature-restoration/](https://ecorestoration.github.io/nature-restoration/) is built by ALFAwetlands and funded by EU. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or CINEA. Neither the European Union nor the granting authority can be held responsible for them. 
-The website will be accurate and up to date during the project period.
-ALFAwetlands reserves the right to amend this notice at any time and without prior notice.
+## Juridische kennisgeving
+Deze juridische kennisgeving regelt de toegang tot en het gebruik van de website over standplaatsvereisten voor vegetatietypen. Door deze website te bezoeken en te gebruiken, stemt de gebruiker ermee in zich te houden aan de huidige voorwaarden en bepalingen.
+De website https://inbo.github.io/standplaatsvereisten/ werd ontwikkeld door INBO en gefinancierd door de Vlaamse Overheid. De geuite standpunten en meningen zijn echter uitsluitend die van de auteur(s) en weerspiegelen niet noodzakelijk die van de Vlaamse overheid. De Vlaamse overheid kan hiervoor niet verantwoordelijk worden gehouden.
+De website wordt gedurende de looptijd van het project accuraat en actueel gehouden.
+INBO behoudt zich het recht om deze kennisgeving op elk moment en zonder voorafgaande aankondiging te wijzigen.
 
-## Intellectual property rights
-All intellectual property rights relating to this website and its content are held by ALFAwetlands or its licensors. This includes, but is not limited to, logos, designs, data, texts, and images.
+## Intellectuele eigendomsrechten
+Alle intellectuele eigendomsrechten met betrekking tot deze website en de inhoud ervan berusten bij INBO of zijn licentiegevers. Dit omvat onder meer logo’s, ontwerpen, gegevens, teksten en afbeeldingen.
 
-## Copyright
-All elements of the website, including texts, layout, images, audiovisual materials, and graphical elements, are protected by copyright. Any reproduction, distribution, modification, or other use, in whole or in part, by any means, is prohibited without prior written authorisation.
-The content of this website may only be used in accordance with applicable national and European Union copyright law.
+## Auteursrecht
+Alle onderdelen van de website, waaronder teksten, lay-out, afbeeldingen, audiovisueel materiaal en grafische elementen, zijn beschermd door het auteursrecht. Elke reproductie, verspreiding, wijziging of enig ander gebruik, geheel of gedeeltelijk, op welke wijze dan ook, is verboden zonder voorafgaande schriftelijke toestemming.
+De inhoud van deze website mag uitsluitend worden gebruikt overeenkomstig de toepasselijke nationale en Europese auteurswetgeving.
 
-## Limitation of liability
-ALFAwetlands endeavours to ensure that the information provided on this website is accurate, complete, and up to date. However, no guarantees are given in this regard.
-ALFAwetlands shall not be held liable for any errors or omissions in the content, nor for any direct or indirect damage arising from the use of the website or the information made available on it.
+## Beperking van aansprakelijkheid
+INBO streeft ernaar ervoor te zorgen dat de informatie op deze website correct, volledig en actueel is. Er worden echter geen garanties gegeven met betrekking tot de juistheid, volledigheid of actualiteit van de informatie.
+INBO kan niet aansprakelijk worden gesteld voor eventuele fouten of onvolledigheden in de inhoud, noch voor enige directe of indirecte schade die voortvloeit uit het gebruik van de website of van de informatie die beschikbaar wordt gesteld.
 
-## Hyperlinks and references
-On this website from ALFAwetlands you may be redirected to websites of authorities, institutions, or organizations managed by third parties. We have no technical or substantive control over these websites and therefore cannot provide any guarantee regarding:
-- the accuracy or completeness of the content,
-- the availability of these resources or websites.
-The use of these links does not imply any endorsement of their content by ALFAwetlands. Any products or services offered by third parties are subject to their own terms and conditions.
+## Hyperlinks en verwijzingen
+Op deze website van INBO kunt u worden doorgestuurd naar websites van overheden, instellingen of organisaties die door derden worden beheerd. Wij hebben geen technische of inhoudelijke controle over deze websites en kunnen daarom geen enkele garantie bieden met betrekking tot:
 
-ALFAwetlands accepts no liability for any direct or indirect damage resulting from the use of external websites.
+* de juistheid of volledigheid van de inhoud;
+* de beschikbaarheid van deze bronnen of websites.
 
-## Functioning and maintenance
-ALFAwetlands takes all reasonable measures to ensure the proper functioning and maintenance of this website. However, ALFAwetlands does not guarantee that the website will function without interruption or error and shall not be held liable for any temporary unavailability or technical issues affecting access.
-Users who identify inaccuracies are invited to notify ALFAwetlands.
+Het gebruik van deze links impliceert geen goedkeuring van de inhoud ervan door INBO. Producten of diensten die door derden worden aangeboden, zijn onderworpen aan hun eigen voorwaarden en bepalingen.
+INBO aanvaardt geen aansprakelijkheid voor directe of indirecte schade die voortvloeit uit het gebruik van externe websites.
 
-## Accessibility
-Our team strives to maintain and improve the accessibility of this website for all users, including those who rely on assistive technologies. If you experience any issues regarding accessibility or have questions, please feel free to contact us.
+## Werking en onderhoud
+INBO neemt alle redelijke maatregelen om de goede werking en het onderhoud van deze website te waarborgen gedurende de projectperiode. INBO garandeert echter niet dat de website zonder onderbrekingen of fouten zal functioneren en kan niet aansprakelijk worden gesteld voor tijdelijke onbeschikbaarheid of technische problemen die de toegang beïnvloeden.
+Gebruikers die onjuistheden vaststellen, worden uitgenodigd INBO hiervan op de hoogte te brengen.
 
-## Safety
-INBO takes appropriate technical measures to safeguard its systems against misuse. While we make reasonable efforts to prevent unauthorised access, we cannot be held liable for any direct or indirect damages resulting from unlawful actions by third parties.
+## Toegankelijkheid
+Ons team streeft ernaar de toegankelijkheid van deze website voor alle gebruikers, inclusief personen die gebruik maken van ondersteunende technologieën, te behouden en te verbeteren. Indien u problemen ondervindt met betrekking tot de toegankelijkheid of vragen heeft, kunt u contact met ons opnemen.
 
-## Comments or complaints
-If you have comments or complaints about this website you can contact ALFAwetlands.
+## Beveiliging
+INBO neemt passende technische maatregelen om zijn systemen te beschermen tegen misbruik. Hoewel wij redelijke inspanningen leveren om ongeoorloofde toegang te voorkomen, kunnen wij niet aansprakelijk worden gesteld voor directe of indirecte schade die voortvloeit uit onrechtmatige handelingen van derden.
 
-## Contact details
-Website INBO: [https://www.vlaanderen.be/inbo/en-gb/homepage/](https://www.vlaanderen.be/inbo/en-gb/homepage/)  
-Contact: [https://www.vlaanderen.be/inbo/en-gb/contact-inbo/] (https://www.vlaanderen.be/inbo/en-gb/contact-inbo/)
+## Opmerkingen of klachten
+Indien u opmerkingen of klachten heeft over deze website, kunt u contact opnemen met INBO.
+
+## Contactgegevens
+Website INBO: https://www.vlaanderen.be/inbo/en-gb/homepage/
+Contact: https://www.vlaanderen.be/inbo/en-gb/contact-inbo/
 
