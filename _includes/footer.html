@@ -1,0 +1,35 @@
+<!-- File: _includes/footer.html -->
+<!-- Partner logos are defined in _data/footer.yml -->
+<!-- It tells the computer: "Look at my list of partners. For every single one you find, create a clickable link with their logo image. -->
+<!-- If you get a new partner, you don't touch this code. You just add one line to your footer.yml file, and it automatically appears on the website. -->
+<!--The Date Trick: {{ site.time | date: '%Y' }} is a "smart" tag. It automatically checks the current year (currently 2026) and displays it. -->
+
+<footer class="site-footer">
+  <div class="footer-inner">
+
+    <!-- Top row: logos (left) + disclaimer (center) -->
+<div class="footer-logos">
+  <div class="logos-left">
+    {% for partner in site.data.footer.partners %}
+      <a href="{{ partner.url }}" target="_blank" rel="noopener" title="{{ partner.name }}">
+        <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }}">
+      </a>
+    {% endfor %}
+  </div>
+
+  {% if site.data.footer.links %}
+    <nav class="footer-links">
+      {% for link in site.data.footer.links %}
+        <a href="{{ link.url | relative_url }}">{{ link.title }}</a> <!--Adding | relative_url tells Jekyll to look inside your specific project folder instead.-->
+      {% endfor %}
+    </nav>
+  {% endif %}
+</div>
+
+    <!-- Bottom row: tagline only -->
+    <div class="footer-bottom">
+      <p class="footer-meta">{{ site.data.footer.tagline | default: 'Peatland restoration guidelines' }} · {{ site.time | date: '%Y' }}</p>
+    </div>
+
+  </div>
+</footer>

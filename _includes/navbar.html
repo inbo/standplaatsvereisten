@@ -1,0 +1,54 @@
+<!-- File: _includes/navbar.html -->
+<nav class="site-nav" aria-label="Main navigation">
+  <a href="{{ '/' | relative_url }}" class="nav-brand" aria-label="home">
+    <img src="{{ '/assets/images/created_logo.png' | relative_url }}" alt="Nature restoration logo" onerror="this.style.display='none'">
+    <span class="nav-title">Peatland restoration guidelines</span>
+  </a>
+
+  <!-- Hamburger button (mobile only) -->
+  <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <ul class="nav-links" id="nav-links">
+    {% for item in site.data.navigation.main %}
+      {% if item.children %}
+        <li class="nav-dropdown">
+          <a href="{{ item.url | relative_url }}" class="nav-link dropdown-toggle
+            {% if page.url contains item.url %} active{% endif %}">
+            {{ item.title }}
+          </a>
+          <ul class="dropdown-menu">
+            {% for child in item.children %}
+              <li>
+                <a href="{{ child.url | relative_url }}"
+                   {% if page.url == child.url %} aria-current="page"{% endif %}>
+                  {{ child.title }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </li>
+      {% else %}
+        <li>
+          <a href="{{ item.url | relative_url }}" class="nav-link
+            {% if page.url == item.url %} active{% endif %}"
+            {% if page.url == item.url %}aria-current="page"{% endif %}>
+            {{ item.title }}
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>
+
+<script>
+  const toggle = document.querySelector('.nav-toggle');
+  const navLinks = document.querySelector('.nav-links');
+  toggle.addEventListener('click', () => {
+    const open = navLinks.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+</script>
