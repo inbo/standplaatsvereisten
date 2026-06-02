@@ -1,0 +1,32 @@
+<!--
+Usage:
+{% include card.html
+   tag="Bogs"
+   title="Sphagnum moss establishment"
+   excerpt="Practical guide to rewetting and monitoring."
+   url="/peatlands/guidelines/"
+%}
+-->
+<div class="card">
+  {% if include.image %}
+    <div class="card-image-wrapper">
+      <img class="card-image" src="{{ include.image | relative_url }}" alt="{{ include.alt }}">
+      {% if include.credit %}
+        <span class="card-attribution">© {{ include.credit }}</span>
+      {% endif %}
+    </div>
+  {% endif %}
+  {% if include.label %}
+    <span class="card-label">{{ include.label }}</span>
+  {% endif %}
+  {% if include.tag %}
+    <span class="card-tag">{{ include.tag }}</span>
+  {% endif %}
+  <p class="card-title">{{ include.title }}</p>
+  {% if include.excerpt %}
+    <p class="card-excerpt">{{ include.excerpt }}</p>
+  {% endif %}
+  {% if include.url %}
+    <a href="{{ include.url | relative_url }}" class="btn">Learn more</a>
+  {% endif %}
+</div>
