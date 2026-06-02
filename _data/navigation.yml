@@ -6,19 +6,12 @@ main:
     url: /dataverzameling/
   - title: Standplaatsvereisten
     url: /standplaatsvereisten/
-    children:
-      - title: Peatlands in the EU
-        url: /peatlands/peatlands-eu/
-      - title: Assessment
-        url: /peatlands/assessment/      
-      - title: Planning and design
-        url: /peatlands/planning-design/
-      - title: Implementation
-        url: /peatlands/implementation/
-      - title: Monitoring and management
-        url: /peatlands/monitoring-management/
-      - title: Restoration funding
-        url: /peatlands/restoration-funding/
+    #children:
+     # - title: Peatlands in the EU
+     #   url: /peatlands/peatlands-eu/
+     # - title: Assessment
+     #   url: /peatlands/assessment/      
+     
   # -title: Landscape perspectives
   #  url: /landscape/
   #  children:
