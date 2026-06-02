@@ -1,0 +1,62 @@
+# SITE SETTINGS
+title: Standplaatsvereisten voor vegetatietypen
+author: INBO
+baseurl: "/standplaatsvereisten"
+url: "https://github.com/inbo/standplaatsvereisten"
+
+# THEME SETTINGS
+#logo: /assets/images/created_logo.png
+
+# BUILD SETTINGS
+repository: standplaatsvereisten
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-remote-theme
+  - jekyll-mermaid
+
+# Enable mermaid diagrams
+mermaid:
+  src: https://cdn.jsdelivr.net/npm/mermaid@11.9.0/dist/mermaid.min.js
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: "_pages"
+    values:
+      layout: base
+  - scope:
+      path: "_pages/home"
+    values:
+      layout: home
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: "_pages/standplaatsvereisten"
+    values:
+      toc: true
+
+# cd C:\Users\maud_raman\Documents\GitHub\standplaatsvereisten #
+# For local testing, run: bundle exec jekyll serve --host 0.0.0.0 --baseurl ""
+# bundle exec jekyll clean    bundle exec jekyll serve --baseurl /
+# rm -rf .jekyll-cache
