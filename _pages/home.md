@@ -1,7 +1,7 @@
 ---
 layout: base
 title: "Standplaatsvereisten van vegetatie"
-#hero_image: "/assets/backgrounds/Finland.jpg"
+hero_image: "/assets/backgrounds/homepage.jpg"
 #image_credit: "Yves Adams, Vilda"
 #hero_subtitle: "Practical restoration pathways for Europe's mires, bogs and fens"
 permalink: /

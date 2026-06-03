@@ -1,9 +1,9 @@
 ---
 title: Disclaimer
 permalink: /disclaimer/
-#hero_image: /assets/backgrounds/forest_moss.jpg#
-#image_credit: "Lorenzo Manera"
-#hero_overlay: true   # omit for photo only
+hero_image: /assets/backgrounds/disclaimer.jpg#
+image_credit: "Markus Winkler"
+hero_overlay: true   # omit for photo only
 layout: base
 ---
 

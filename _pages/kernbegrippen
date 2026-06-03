@@ -1,8 +1,9 @@
 ---
 title: Kernbegrippen
 description: Definities en sleutelconcepten gebruikt in standplaatsonderzoek 
-#hero_image: /assets/backgrounds/keyterms.jpg
-#hero_overlay: true   # omit for photo only
+hero_image: /assets/backgrounds/begrippenlijst.jpg
+image_credit: "JMark"
+hero_overlay: true   # omit for photo only
 permalink: /kernbegrippen/
 layout: base
 ---
