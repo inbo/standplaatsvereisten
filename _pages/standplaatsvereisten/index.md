@@ -1,7 +1,7 @@
 ---
 layout: base
 title: "Standplaatskarakteristieken van vegetatietypes"
-#hero_image: /assets/backgrounds/veenmosbedje.jpg
+#hero_image: /assets/backgrounds/standplaatsvereisten.jpg
 #image_credit: "Yves Adams, Vilda"
 #hero_overlay: true   # omit for photo only
 permalink: /standplaatsvereisten/
@@ -18,8 +18,7 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
   
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/Buitengoor2.jpg' | relative_url }}" alt="Buitengoor, Belgium">
-      <span class="card-attribution">© Yves Adams, Vilda</span>
+      <img class="card-image" src="{{ '/assets/backgrounds/graslanden.jpg' | relative_url }}" alt="Blauwgrasland">
     </div>
     <h3 class="card-title">Graslanden</h3>
     <p class="card-excerpt">Standplaatskarakteristieken van graslandtypes.</p>
@@ -28,8 +27,8 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
   
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/assessment.jpg' | relative_url }}" alt="Flooded area">
-      <span class="card-attribution">© Toon de Vos</span>
+      <img class="card-image" src="{{ '/assets/backgrounds/heide.jpg' | relative_url }}" alt="Heidebeeld in Nationaal Park Hoge Kempen">
+      <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">Heide</h3>
     <p class="card-excerpt">Standplaatskarakteristieken van heidetypes.</p>
@@ -38,7 +37,8 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
 
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/planning.jpg' | relative_url }}" alt="Planning people">
+      <img class="card-image" src="{{ '/assets/backgrounds/moerassen.jpg' | relative_url }}" alt="Verlandingsvegetatie De Teut, Zonhoven">
+      <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">Moerassen</h3>
     <p class="card-excerpt">Standplaatskarakteristieken van moerastypes.</p>
@@ -47,8 +47,8 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
 
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/implementation.jpg' | relative_url }}" alt="Plank path in nature area">
-      <span class="card-attribution">© Kasias</span>
+      <img class="card-image" src="{{ '/assets/backgrounds/bossen.jpg' | relative_url }}" alt="Bossen in Sint Lievens Houtem">
+      <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">Bossen</h3>
     <p class="card-excerpt">Standplaatskarakteristieken van bostypes.</p>
