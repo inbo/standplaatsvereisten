@@ -1,0 +1,58 @@
+---
+layout: base
+title: "Standplaatskarakteristieken van vegetatietypes"
+#hero_image: /assets/backgrounds/veenmosbedje.jpg
+#image_credit: "Yves Adams, Vilda"
+#hero_overlay: true   # omit for photo only
+permalink: /standplaatsvereisten/
+toc: false
+---
+
+Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. Ze beschrijven de specifieke randvoorwaarden – zoals de textuur en zuurgraad van de bodem, de grondwaterstand en de beschikbaarheid van voedingsstoffen – die bepalen welk vegetatietype waar kan overleven. In een complex en versnipperd landschap als Vlaanderen zijn deze karakteristieken de sleutel tot herstel: ze vertellen ons niet alleen wat er groeit, maar vooral waarom het er groeit en hoe we het kunnen beschermen.
+
+<blockquote>
+"De natuur is geen toeval. Ontdek de ecologische blauwdruk van Vlaanderen.”
+</blockquote>
+
+<div class="card-grid">
+  
+  <div class="card">
+    <div class="card-image-wrapper">
+      <img class="card-image" src="{{ '/assets/backgrounds/Buitengoor2.jpg' | relative_url }}" alt="Buitengoor, Belgium">
+      <span class="card-attribution">© Yves Adams, Vilda</span>
+    </div>
+    <h3 class="card-title">Graslanden</h3>
+    <p class="card-excerpt">Standplaatskarakteristieken van graslandtypes.</p>
+    <a href="{{ '/standplaatsvereisten/graslanden/' | relative_url }}" class="btn">Learn more</a>
+  </div>
+  
+  <div class="card">
+    <div class="card-image-wrapper">
+      <img class="card-image" src="{{ '/assets/backgrounds/assessment.jpg' | relative_url }}" alt="Flooded area">
+      <span class="card-attribution">© Toon de Vos</span>
+    </div>
+    <h3 class="card-title">Heide</h3>
+    <p class="card-excerpt">Standplaatskarakteristieken van heidetypes.</p>
+    <a href="{{ '/standplaatsvereisten/heide/' | relative_url }}" class="btn">Learn more</a>
+  </div>
+
+  <div class="card">
+    <div class="card-image-wrapper">
+      <img class="card-image" src="{{ '/assets/backgrounds/planning.jpg' | relative_url }}" alt="Planning people">
+    </div>
+    <h3 class="card-title">Moerassen</h3>
+    <p class="card-excerpt">Standplaatskarakteristieken van moerastypes.</p>
+    <a href="{{ '/standplaatsvereisten/moerassen/' | relative_url }}" class="btn">Learn more</a>
+  </div>
+
+  <div class="card">
+    <div class="card-image-wrapper">
+      <img class="card-image" src="{{ '/assets/backgrounds/implementation.jpg' | relative_url }}" alt="Plank path in nature area">
+      <span class="card-attribution">© Kasias</span>
+    </div>
+    <h3 class="card-title">Bossen</h3>
+    <p class="card-excerpt">Standplaatskarakteristieken van bostypes.</p>
+    <a href="{{ '/standplaatsvereisten/bossen/' | relative_url }}" class="btn">Learn more</a>
+  </div>
+
+</div>

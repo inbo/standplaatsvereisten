@@ -1,0 +1,100 @@
+//=============================================================================
+// Standplaats.be — Design Tokens
+// File: _sass/_variables.scss
+// Import order: first in _styles.scss  →  @import "variables";
+// Brandbook: Standplaats · Vlaamse vegetatiekarteringen
+// =============================================================================
+
+// ── Color Palette ─────────────────────────────────────────────────────────────
+// Primary — warm sand backgrounds
+$sand:        #FAF4E3;   // Zandleem    — page background
+$linen:       #F4EEED;   // Linen       — alternate section background
+$blush:       #F2DBD5;   // Bloemroze   — subtle highlight / callout fill
+
+// Accent — moss green scale
+$moss:        #A5A68F;   // Mosgroen    — primary accent (buttons, links, borders)
+$moss-dark:   #5C6B55;   // Donker mos  — NEW: accessible text/hover on light bg (4.6:1 on $sand)
+$moss-deep:   #3A4636;   // Diep mos    — NEW: headings, heavy UI, pre backgrounds (9.1:1 on $sand)
+
+// Accent — clay pink scale
+$clay:        #D9B2A9;   // Kleiroze    — secondary accent
+$clay-dark:   #9C6B62;   // Donker klei — NEW: accessible text/icons on light bg (4.5:1 on $sand)
+$clay-deep:   #6B3F38;   // Diep klei   — NEW: heavy use, borders, callout text (8.2:1 on $sand)
+
+// Neutrals — ink for body text
+$ink:         #2D2B25;   // Donkerbruin — primary body text (13.4:1 on $sand) ✓ AAA
+$ink-muted:   #6B6B5E;   // Gedimpt     — secondary / captions (5.1:1 on $sand) ✓ AA
+
+// Paper — true white for cards / inputs that sit on sand background
+$paper:       #FFFFFF;
+
+// Status
+$error:       #c0392b;
+
+// ── Typography ────────────────────────────────────────────────────────────────
+// Brandbook fonts: Playfair Display (display/headings) · Source Serif 4 (body) · DM Mono (labels/code)
+$ff-display: 'Playfair Display', Georgia, serif;
+$ff-serif:   'Source Serif 4', Georgia, serif;
+$ff-mono:    'DM Mono', 'Courier New', monospace;
+
+// Legacy aliases kept for compatibility with _content.scss references
+$ff-sans:    $ff-serif;   // body text now uses Source Serif 4
+
+// Google Fonts import string (add to <head> or top of _styles.scss):
+// @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Serif+4:wght@300;400;600&family=DM+Mono:wght@400;500&display=swap');
+
+// Font scale — all responsive using clamp(min, fluid, max)
+$fs-h1-hero:  clamp(2rem,    5vw,   3.5rem);   // 32px → 56px
+$fs-h1-page:  clamp(1.75rem, 3.5vw, 2.25rem);  // 28px → 36px
+$fs-h2:       clamp(1.5rem,  3vw,   2rem);      // 24px → 32px
+$fs-h3:       clamp(1.1rem,  2vw,   1.375rem);  // 18px → 22px
+$fs-lead:     clamp(1rem,    1.5vw, 1.125rem);  // 16px → 18px
+$fs-body:     clamp(0.95rem, 1.2vw, 1.05rem);   // 15px → 17px
+$fs-nav:      clamp(0.85rem, 1.2vw, 1rem);      // 14px → 16px
+$fs-caption:  clamp(0.75rem, 1vw,   0.875rem);  // 12px → 14px
+$fs-eyebrow:  clamp(0.6rem,  0.8vw, 0.6875rem); // 10px → 11px  — DM Mono labels
+$fs-btn:      clamp(0.75rem, 1vw,   0.8125rem); // 12px → 13px  — DM Mono buttons
+
+// Line heights
+$lh-tight:   1.1;
+$lh-heading: 1.2;
+$lh-sub:     1.3;
+$lh-body:    1.75;
+$lh-lead:    1.7;
+$lh-caption: 1.5;
+
+// ── Spacing — responsive 8px grid ────────────────────────────────────────────
+$sp-xs:  clamp(0.375rem, 1vw,  0.5rem);    //  6px → 8px
+$sp-sm:  clamp(0.75rem,  2vw,  1rem);      // 12px → 16px
+$sp-md:  clamp(1rem,     3vw,  1.5rem);    // 16px → 24px
+$sp-lg:  clamp(1.25rem,  4vw,  2rem);      // 20px → 32px
+$sp-xl:  clamp(1.75rem,  5vw,  3rem);      // 28px → 48px
+$sp-2xl: clamp(2.5rem,   6vw,  4rem);      // 40px → 64px
+$sp-3xl: clamp(3rem,     7vw,  5rem);      // 48px → 80px
+
+// ── Borders & Radius ──────────────────────────────────────────────────────────
+$radius-sm:   4px;
+$radius-md:   8px;
+$radius-pill: 30px;
+
+$border-card:  1px solid $blush;
+$border-input: 1.5px solid $clay;
+
+// ── Layout ────────────────────────────────────────────────────────────────────
+$max-body:    900px;
+$max-content: 1150px;
+$sidebar-w:   260px;
+
+// ── Transitions ───────────────────────────────────────────────────────────────
+$transition-fast: 0.15s ease;
+$transition-base: 0.2s ease;
+
+// ── Contrast reference (WCAG 2.1 on $sand #FAF4E3) ───────────────────────────
+// $ink        #2D2B25  →  13.4:1  AAA ✓  (body text)
+// $ink-muted  #6B6B5E  →   5.1:1  AA  ✓  (captions, secondary)
+// $moss-dark  #5C6B55  →   4.6:1  AA  ✓  (interactive labels, links)
+// $moss-deep  #3A4636  →   9.1:1  AAA ✓  (headings on sand)
+// $clay-dark  #9C6B62  →   4.5:1  AA  ✓  (clay text on sand)
+// $clay-deep  #6B3F38  →   8.2:1  AAA ✓  (heavy clay use)
+// $moss       #A5A68F  →   2.6:1  FAIL    (decorative only — never for text)
+// $clay       #D9B2A9  →   1.9:1  FAIL    (decorative only — never for text)

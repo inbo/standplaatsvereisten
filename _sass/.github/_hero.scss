@@ -1,0 +1,93 @@
+// =============================================================================
+// Standplaats.be — Hero Section
+// File: _sass/_hero.scss
+// Imported by: _styles.scss
+// Brandbook: Standplaats · Vlaamse vegetatiekarteringen
+// =============================================================================
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  min-height: 200px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: $sand;
+  background-color: $moss-deep;                 // #3A4636 — fallback before image loads
+
+  &.has-image {
+    background-image: var(--hero-image);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &.has-overlay {
+    background-image:
+      linear-gradient(rgba($moss-deep, 0.6), rgba($moss-deep, 0.6)),
+      var(--hero-image);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  h1 {
+    font-family: $ff-display;                   // Playfair Display
+    font-weight: 400;
+    color: $sand;                               // #FAF4E3 — warm, not stark white
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+
+    // Brandbook italic accent — e.g. <em>Karakteristieken</em>
+    em {
+      color: $clay;                             // #D9B2A9 — clay on dark bg ✓
+      font-style: italic;
+    }
+  }
+
+  // Radial shadow behind h1 text when hero has a photo
+  &.has-image h1 {
+    text-shadow: 0 2px 12px rgba($moss-deep, 0.5);
+  }
+
+  .hero-subtitle {
+    font-family: $ff-serif;                     // Source Serif 4
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    font-weight: 300;
+    color: rgba($sand, 0.88);
+    letter-spacing: 0.04em;
+    margin-top: $sp-sm;
+    max-width: 700px;
+    line-height: $lh-lead;
+    text-shadow: 0 1px 4px rgba($moss-deep, 0.4);
+  }
+
+  // DM Mono eyebrow above the title — optional
+  .hero-eyebrow {
+    font-family: $ff-mono;
+    font-size: $fs-eyebrow;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: $clay;                               // clay on dark ✓
+    display: block;
+    margin-bottom: $sp-xs;
+  }
+
+  // Attribution caption bottom-right
+  .hero-attribution {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    font-family: $ff-mono;
+    font-size: 0.7rem;
+    letter-spacing: 0.04em;
+    color: rgba($sand, 0.65);
+    background: rgba($moss-deep, 0.45);
+    padding: 3px 8px;
+    border-radius: 3px;
+    pointer-events: none;
+  }
+}

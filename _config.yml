@@ -5,7 +5,7 @@ baseurl: "/standplaatsvereisten"
 url: "https://github.com/inbo/standplaatsvereisten"
 
 # THEME SETTINGS
-#logo: /assets/images/created_logo.png
+logo: /assets/images/logo_standplaats.png
 
 # BUILD SETTINGS
 repository: standplaatsvereisten

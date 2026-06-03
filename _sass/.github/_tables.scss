@@ -1,0 +1,473 @@
+// =============================================================================
+// Standplaats.be — Site Table Component
+// File: _sass/_tables.scss
+// Imported by: _styles.scss
+// Brandbook: Standplaats · Vlaamse vegetatiekarteringen
+// =============================================================================
+
+// ── Site table wrapper ────────────────────────────────────────────────────────
+.site-table-wrap {
+  margin: 2rem 0 0.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 14px rgba($moss-deep, 0.10);
+}
+
+.site-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: $ff-serif;                        // Source Serif 4
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: $ink;
+  background: $paper;
+
+  // ── Header ──────────────────────────────────────────────────────────────
+  thead tr { background: $moss-deep; }           // #3A4636
+
+  thead th {
+    padding: 0.85rem 1.25rem;
+    text-align: left;
+    font-family: $ff-mono;                       // DM Mono — brandbook table headers
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $sand;
+    border: none;
+
+    &:first-child { border-radius: 10px 0 0 0; }
+    &:last-child  { border-radius: 0 10px 0 0; }
+  }
+
+  // ── Body rows ───────────────────────────────────────────────────────────
+  tbody tr {
+    border-bottom: 1px solid $blush;
+    transition: background $transition-fast;
+
+    &.group-row td:not(.group-label) { background: rgba($sand, 0.6); }
+    &:hover td:not(.group-label)     { background: rgba($clay, 0.12); }
+  }
+
+  // Flip popup upward for last 4 rows
+  tbody tr:last-child,
+  tbody tr:nth-last-child(2),
+  tbody tr:nth-last-child(3),
+  tbody tr:nth-last-child(4) {
+    .popup-card {
+      top: auto;
+      bottom: calc(100% + 6px);
+    }
+  }
+
+  // ── Data cells ──────────────────────────────────────────────────────────
+  td {
+    padding: 0.65rem 1.25rem;
+    vertical-align: middle;
+    border-right: 1px solid $blush;
+
+    &:last-child { border-right: none; }
+  }
+
+  // ── Group label column ───────────────────────────────────────────────────
+  .group-label {
+    width: 22%;
+    min-width: 155px;
+    vertical-align: middle;
+    background: $moss;                           // #A5A68F — mid moss
+    border-right: 3px solid $moss-dark !important;
+    padding: 1rem 0.9rem;
+    text-align: center;
+  }
+
+  .group-badge {
+    display: inline-block;
+    font-family: $ff-mono;                       // DM Mono — brandbook badge
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $moss-deep;                           // #3A4636 — AAA on $moss ✓
+    line-height: 1.45;
+  }
+
+  // ── Cell text ────────────────────────────────────────────────────────────
+  td em {
+    font-style: italic;
+    color: $ink-muted;
+  }
+
+  // ── Hover popup ──────────────────────────────────────────────────────────
+  .has-popup {
+    position: relative;
+    cursor: help;
+
+    & > span {
+      border-bottom: 1px dotted $moss-dark;
+      padding-bottom: 1px;
+    }
+
+    .info-icon {
+      display: inline-block;
+      margin-left: 0.4rem;
+      width: 1rem;
+      height: 1rem;
+      line-height: 1rem;
+      font-size: 0.65rem;
+      font-style: normal;
+      font-weight: 500;
+      text-align: center;
+      color: $paper;
+      background: $moss-dark;                    // #5C6B55
+      border-radius: 50%;
+      vertical-align: middle;
+      opacity: 0.7;
+      transition: opacity $transition-fast;
+      user-select: none;
+    }
+
+    &:hover .info-icon { opacity: 1; }
+
+    &:hover .popup-card,
+    .popup-card:hover {
+      display: block;
+      pointer-events: auto;
+    }
+  }
+
+  .popup-card {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    top: calc(100% + 6px);
+    width: 300px;
+    background: $paper;
+    border: 1px solid $blush;
+    border-top: 3px solid $moss-dark;           // non-color cue: top accent
+    border-radius: 8px;
+    box-shadow: 0 6px 24px rgba($moss-deep, 0.15);
+    padding: 1rem 1.1rem 0.9rem;
+    font-family: $ff-serif;
+    font-size: 0.875rem;
+    line-height: 1.55;
+    color: $ink;
+    pointer-events: none;
+
+    .popup-title {
+      font-family: $ff-mono;
+      font-size: 0.75rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: $moss-dark;
+      margin-bottom: 0.4rem;
+    }
+
+    .popup-desc {
+      color: $ink-muted;
+      margin-bottom: 0.75rem;
+    }
+
+    .popup-link {
+      display: inline-block;
+      padding: 0.3em 0.8em;
+      font-family: $ff-mono;
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      color: $paper;
+      background: $moss-dark;
+      border-radius: 4px;
+      text-decoration: none;
+      border-bottom: none;
+      transition: background $transition-fast;
+
+      &:hover { background: $moss-deep; }
+    }
+  }
+
+  // ── Last row corners ─────────────────────────────────────────────────────
+  tbody tr:last-child {
+    .group-label  { border-radius: 0 0 0 10px; }
+    td:last-child { border-radius: 0 0 10px 0; }
+  }
+}
+
+// ── Footnote ─────────────────────────────────────────────────────────────────
+.site-table-footnote {
+  margin: 0.6rem 0 1.5rem;
+  font-family: $ff-serif;
+  font-size: 0.8125rem;
+  font-weight: 300;
+  color: $ink-muted;
+  line-height: 1.5;
+
+  // Priority code pill — kept EU blue/yellow; this is a legal convention
+  .priority-star {
+    display: inline-block;
+    margin-right: 0.2em;
+    padding: 0 0.3em;
+    font-size: 0.875rem;
+    font-weight: 700;
+    font-family: $ff-mono;
+    color: #003399;
+    background: #fff4b8;
+    border: 1px solid #c8a800;
+    border-radius: 3px;
+    vertical-align: middle;
+  }
+}
+
+// ── Natura 2000 habitat code pills ───────────────────────────────────────────
+.habitat-code {
+  display: inline-block;
+  margin-right: 0.55rem;
+  padding: 0.15em 0.55em;
+  font-family: $ff-mono;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: $moss-deep;
+  background: rgba($moss, 0.2);
+  border: 1px solid $blush;
+  border-radius: 4px;
+  white-space: nowrap;
+  vertical-align: middle;
+
+  // Priority — EU convention; blue/yellow kept intentionally
+  &.priority {
+    color: #003399;
+    background: #fff9cc;
+    border-color: #c8a800;
+  }
+}
+
+.habitat-name {
+  vertical-align: middle;
+  font-family: $ff-serif;
+
+  em {
+    font-style: italic;
+    color: $ink-muted;
+  }
+}
+
+// ── Responsive ───────────────────────────────────────────────────────────────
+@media (max-width: 600px) {
+  .site-table {
+    font-size: 0.875rem;
+
+    .group-label {
+      width: 28%;
+      min-width: 110px;
+      padding: 0.75rem 0.6rem;
+    }
+
+    .group-badge { font-size: 0.7rem; }
+
+    thead th,
+    td { padding: 0.6rem 0.75rem; }
+  }
+}
+
+// ── Markdown tables (.page-content table) ────────────────────────────────────
+.page-content table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: $ff-serif;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: $ink;
+  background: $paper;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 14px rgba($moss-deep, 0.10);
+  margin: 2rem 0 0.5rem;
+
+  thead tr { background: $moss-deep; }
+
+  thead th {
+    padding: 0.85rem 1.25rem;
+    text-align: left;
+    font-family: $ff-mono;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $sand;
+    border: none;
+  }
+
+  tbody tr {
+    border-bottom: 1px solid $blush;
+    transition: background $transition-fast;
+
+    &:last-child { border-bottom: none; }
+    &:hover td   { background: rgba($clay, 0.12); }
+  }
+
+  td {
+    padding: 0.65rem 1.25rem;
+    vertical-align: middle;
+    border-right: 1px solid $blush;
+
+    &:last-child { border-right: none; }
+  }
+
+  @media (max-width: 600px) {
+    font-size: 0.875rem;
+
+    thead th,
+    td { padding: 0.6rem 0.75rem; }
+  }
+}
+
+// ── Inline tooltips ───────────────────────────────────────────────────────────
+.tooltip-wrap {
+  position: relative;
+  display: inline;
+
+  .tooltip-term {
+    color: $moss-deep;
+    font-weight: 600;
+    border-bottom: 1px dotted $moss-dark;
+    cursor: help;
+    padding-bottom: 1px;
+  }
+
+  .tooltip-popup {
+    display: none;
+    position: absolute;
+    z-index: 200;
+    left: 0;
+    top: calc(100% + 6px);
+    width: 280px;
+    background: $paper;
+    border: 1px solid $blush;
+    border-top: 3px solid $moss-dark;
+    border-radius: 8px;
+    box-shadow: 0 6px 24px rgba($moss-deep, 0.15);
+    padding: 0.75rem 1rem;
+    font-family: $ff-serif;
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 1.55;
+    color: $ink;
+    pointer-events: none;
+  }
+
+  &:hover .tooltip-popup { display: block; }
+}
+
+// ── Glossary table ────────────────────────────────────────────────────────────
+.glossary-wrap {
+  margin: 2rem 0 1.5rem;
+  overflow-x: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 14px rgba($moss-deep, 0.10);
+}
+
+.glossary-table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  font-family: $ff-serif;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: $ink;
+  background: $paper;
+
+  th:nth-child(1) { width: 20%; }
+  th:nth-child(2) { width: 60%; }
+  th:nth-child(3) { width: 20%; }
+
+  // ── Header ──────────────────────────────────────────────────────────────
+  thead tr { background: $moss-deep; }
+
+  thead th {
+    padding: 0.85rem 1.25rem;
+    text-align: left;
+    font-family: $ff-mono;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $sand;
+    border: none;
+
+    &:first-child { border-radius: 10px 0 0 0; }
+    &:last-child  { border-radius: 0 10px 0 0; }
+  }
+
+  // ── Letter header rows ───────────────────────────────────────────────────
+  .glossary-letter-row td {
+    background: $moss;                           // #A5A68F
+    color: $moss-deep;                           // AAA on $moss ✓
+    font-family: $ff-mono;
+    font-weight: 500;
+    font-size: 0.875rem;
+    padding: 0.4rem 1.25rem;
+    border-bottom: 2px solid $moss-dark;
+    letter-spacing: 0.08em;
+  }
+
+  // ── Alternating rows ─────────────────────────────────────────────────────
+  .glossary-row-odd  td { background: $paper; }
+  .glossary-row-even td { background: $linen; }  // #F4EEED — warm linen
+
+  tbody tr:not(.glossary-letter-row) {
+    border-bottom: 1px solid $blush;
+    transition: background $transition-fast;
+
+    &:hover td { background: rgba($clay, 0.12); }
+  }
+
+  // ── Cells ────────────────────────────────────────────────────────────────
+  td {
+    padding: 0.65rem 1.25rem;
+    vertical-align: top;
+    border-right: 1px solid $blush;
+
+    &:last-child { border-right: none; }
+  }
+
+  .glossary-term {
+    font-family: $ff-display;                    // Playfair Display — term as display
+    font-size: 1rem;
+    font-weight: 400;
+    color: $moss-deep;                           // AAA ✓
+    width: 20%;
+    min-width: 140px;
+    vertical-align: middle;
+  }
+
+  .glossary-definition {
+    font-weight: 300;
+    width: 60%;
+  }
+
+  .glossary-source {
+    width: 20%;
+    font-family: $ff-mono;
+    font-size: 0.8rem;
+    color: $ink-muted;
+    font-style: normal;
+    letter-spacing: 0.03em;
+  }
+
+  // ── Last row corners ─────────────────────────────────────────────────────
+  tbody tr:last-child {
+    td:first-child { border-radius: 0 0 0 10px; }
+    td:last-child  { border-radius: 0 0 10px 0; }
+  }
+
+  // ── Responsive ───────────────────────────────────────────────────────────
+  @media (max-width: 600px) {
+    font-size: 0.875rem;
+
+    thead th,
+    td { padding: 0.6rem 0.75rem; }
+
+    .glossary-source { display: none; }
+  }
+}

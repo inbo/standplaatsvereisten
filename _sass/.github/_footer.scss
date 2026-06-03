@@ -1,0 +1,118 @@
+// =============================================================================
+// Standplaats.be — Footer
+// File: _sass/_footer.scss
+// Imported by: _styles.scss
+// Brandbook: Standplaats · Vlaamse vegetatiekarteringen
+// =============================================================================
+
+.site-footer {
+  background: $moss-deep;                          // #3A4636 — matches navbar
+  padding: $sp-sm clamp(1rem, 4vw, 4rem);
+  border-top: 1px solid rgba($moss, 0.2);
+
+  .footer-inner {
+    max-width: $max-content;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: $sp-sm;
+  }
+
+  .footer-logos {
+    display: flex;
+    align-items: center;
+    padding-bottom: $sp-sm;
+    border-bottom: 1px solid rgba($moss, 0.2);
+    position: relative;
+
+    .logos-left {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: $sp-md;
+    }
+
+    a {
+      border: none;
+      outline: none;
+      display: inline-flex;
+    }
+
+    img {
+      height: clamp(24px, 4vw, 48px);
+      width: auto;
+      border: none;
+      outline: none;
+      border-radius: 0;
+      opacity: 0.85;
+      transition: opacity $transition-base;
+
+      &:hover { opacity: 1; }
+    }
+  }
+
+  // Privacy link — centered in top row
+  .footer-links {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    a {
+      font-family: $ff-mono;                       // DM Mono
+      font-size: clamp(0.7rem, 1.2vw, 0.875rem);
+      letter-spacing: 0.06em;
+      color: rgba($sand, 0.65);
+      text-decoration: none;
+      border: none;
+      transition: color $transition-base;
+
+      &:hover { color: $sand; }
+    }
+  }
+
+  // Bottom bar
+  .footer-bottom {
+    display: flex;
+    align-items: center;
+    padding-top: $sp-xs;
+    padding-bottom: $sp-xs;
+  }
+
+  .footer-meta {
+    font-family: $ff-mono;                         // DM Mono — brandbook metadata
+    font-size: clamp(0.65rem, 1.2vw, 0.8rem);
+    letter-spacing: 0.08em;
+    color: rgba($sand, 0.5);
+  }
+}
+
+@media (max-width: 700px) {
+  .site-footer {
+    padding: $sp-md $sp-sm;
+
+    .footer-logos {
+      flex-direction: column;
+      align-items: center;
+      gap: $sp-sm;
+
+      .logos-left {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .footer-links {
+        position: static;
+        transform: none;
+        width: 100%;
+        text-align: center;
+        margin-top: $sp-xs;
+      }
+    }
+
+    .footer-bottom {
+      justify-content: center;
+      text-align: center;
+    }
+  }
+}

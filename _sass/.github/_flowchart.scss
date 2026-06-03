@@ -1,0 +1,117 @@
+// =============================================================================
+// Standplaats.be — Flowchart Styles (Mermaid)
+// File: _sass/_flowchart.scss
+// Imported by: _styles.scss  →  @import "flowchart";
+// Brandbook: Standplaats · Vlaamse vegetatiekarteringen
+//
+// Color-blind note: nodes are distinguished by BOTH fill color AND shape.
+// Mermaid already renders decisions as diamonds and targets as rectangles.
+// The green/clay split here is supplemental — shape is the primary cue.
+// =============================================================================
+
+.mermaid {
+  font-family: $ff-serif;                        // Source Serif 4
+
+  // ── Shape fills ──────────────────────────────────────────────────────────
+  // greenfill  → moss scale  (diamonds / yes/no)
+  .greenfill > rect,
+  .greenfill > polygon  { fill: $moss !important; stroke: $moss-dark !important; }
+
+  // redfill → clay scale (replaces pure red — accessible on dark bg)
+  .redfill > rect,
+  .redfill > polygon    { fill: $clay-deep !important; stroke: $clay-dark !important; }
+
+  // decision → moss-dark (primary action nodes)
+  .decision > rect,
+  .decision > polygon   { fill: $moss-dark !important; stroke: $moss-deep !important; }
+
+  // target → sand/linen (neutral end nodes)
+  .target > rect        { fill: $linen !important; stroke: $blush !important; }
+
+  // ── Text colors ──────────────────────────────────────────────────────────
+  .greenfill .nodeLabel,
+  .greenfill foreignObject div,
+  .greenfill foreignObject p  {
+    color: $moss-deep !important;               // #3A4636 — AAA on $moss ✓
+  }
+
+  .redfill .nodeLabel,
+  .redfill foreignObject div,
+  .redfill foreignObject p    {
+    color: $sand !important;                    // #FAF4E3 on $clay-deep ✓
+  }
+
+  .decision .nodeLabel,
+  .decision foreignObject div,
+  .decision foreignObject p   {
+    color: $sand !important;                    // #FAF4E3 on $moss-dark ✓
+  }
+
+  .target .nodeLabel,
+  .target foreignObject div,
+  .target foreignObject p     {
+    color: $ink !important;                     // #2D2B25 on $linen ✓
+  }
+
+  // ── Typography — rectangular boxes (decision + target) ───────────────────
+  .decision foreignObject div,
+  .decision foreignObject p,
+  .target foreignObject div,
+  .target foreignObject p {
+    font-family: $ff-serif !important;          // Source Serif 4
+    font-size: 17px !important;
+    line-height: 1.6 !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+    padding: 3px 5px !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+  }
+
+  // ── Typography — diamond labels (yes/no) ─────────────────────────────────
+  .greenfill foreignObject div,
+  .greenfill foreignObject p,
+  .redfill foreignObject div,
+  .redfill foreignObject p {
+    font-family: $ff-mono !important;           // DM Mono — short labels
+    font-size: 17px !important;
+    font-weight: 500 !important;
+    text-align: center !important;
+    padding: 2px !important;
+  }
+
+  // ── Connectors ───────────────────────────────────────────────────────────
+  .edgePath .path {
+    stroke: $ink-muted !important;
+    stroke-width: 1.5px !important;
+  }
+
+  .arrowheadPath {
+    fill: $ink-muted !important;
+    stroke: $ink-muted !important;
+  }
+
+  // ── Edge labels ──────────────────────────────────────────────────────────
+  .edgeLabel {
+    background-color: $sand !important;
+
+    span, p {
+      color: $ink-muted !important;
+      font-family: $ff-mono !important;         // DM Mono — short edge labels
+      font-size: 13px !important;
+      font-weight: 500 !important;
+      letter-spacing: 0.06em !important;
+      background-color: $sand !important;
+    }
+  }
+}
+
+// ── Responsive ───────────────────────────────────────────────────────────────
+@media (max-width: 600px) {
+  .mermaid {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+
+    svg { min-width: 480px; }
+  }
+}

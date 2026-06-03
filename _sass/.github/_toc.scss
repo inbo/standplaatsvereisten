@@ -1,0 +1,80 @@
+// =============================================================================
+// Standplaats.be — TOC Sidebar
+// File: _sass/_toc.scss
+// Imported by: _styles.scss
+// Brandbook: Standplaats · Vlaamse vegetatiekarteringen
+// =============================================================================
+
+.toc-sidebar {
+  position: sticky;
+  top: 80px;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+  align-self: start;
+
+  .toc-header {
+    font-family: $ff-mono;                       // DM Mono — brandbook label
+    font-size: $fs-eyebrow;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: $moss-dark;                           // #5C6B55 — AA on $sand ✓
+    margin-bottom: $sp-xs;
+    padding-bottom: $sp-xs;
+    border-bottom: 1px solid $blush;
+    display: block;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  a {
+    font-family: $ff-serif;                      // Source Serif 4 — body rhythm
+    display: block;
+    font-size: $fs-nav;
+    font-weight: 300;
+    color: $ink-muted;                           // #6B6B5E — AA on $sand ✓
+    text-decoration: none;
+    border: none;
+    padding: 5px 0 5px 12px;
+    border-left: 2px solid transparent;
+    transition: color $transition-fast, border-color $transition-fast;
+
+    &:hover {
+      color: $moss-dark;                         // accessible hover ✓
+      border-left-color: $clay;                  // clay left-border — non-color cue
+    }
+
+    &.active {
+      color: $moss-dark;
+      border-left-color: $moss-dark;             // green border = active state
+      font-weight: 600;
+    }
+  }
+
+  // Indent h3 entries
+  a[data-level="3"] {
+    padding-left: 22px;
+    font-size: $fs-caption;
+  }
+}
+
+// Scrollbar
+.toc-sidebar::-webkit-scrollbar       { width: 3px; }
+.toc-sidebar::-webkit-scrollbar-track { background: transparent; }
+.toc-sidebar::-webkit-scrollbar-thumb { background: $blush; border-radius: 2px; }
+
+// Mobile
+@media (max-width: 900px) {
+  .toc-sidebar {
+    position: static;
+    max-height: none;
+    overflow-y: visible;
+    border-bottom: 1px solid $blush;
+    padding-bottom: $sp-sm;
+    margin-bottom: $sp-md;
+  }
+}

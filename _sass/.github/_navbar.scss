@@ -1,0 +1,221 @@
+// =============================================================================
+// Standplaats.be — Navbar
+// File: _sass/_navbar.scss
+// Imported by: _styles.scss
+// Brandbook: Standplaats · Vlaamse vegetatiekarteringen
+// =============================================================================
+
+.site-nav {
+  background: $moss-deep;                        // #3A4636 — deep moss
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: clamp(60px, 8vw, 120px);
+  padding: 1rem clamp(1rem, 4vw, 4rem);
+  border-bottom: 1px solid rgba($moss, 0.2);
+
+  .nav-brand {
+    font-weight: 400;
+    color: $sand;
+    text-decoration: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: $sp-xs;
+
+    .nav-title {
+      font-family: $ff-display;                  // Playfair Display
+      font-size: clamp(0.75rem, 1.5vw, 1rem);
+      font-weight: 400;
+      color: $sand;
+      line-height: 1.2;
+
+      // Brandbook dot accent
+      &::after {
+        content: '.';
+        color: $clay;
+      }
+    }
+
+    img {
+      height: clamp(32px, 5vw, 80px) !important;
+      width: auto;
+      border-radius: 0;
+      display: block;
+      flex-shrink: 0;
+    }
+  }
+
+  // Hamburger button — hidden on desktop
+  .nav-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: $sp-xs;
+    margin-left: auto;
+
+    span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: $moss;                         // #A5A68F — visible on $moss-deep
+      border-radius: 2px;
+      transition: transform $transition-base, opacity $transition-base;
+    }
+  }
+
+  // Desktop nav links
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: $sp-md;
+    margin-left: auto;
+    list-style: none;
+    padding: 0;
+    margin-right: clamp(0.5rem, 3vw, 3rem);
+  }
+
+  .nav-link {
+    font-family: $ff-mono;                       // DM Mono — brandbook nav labels
+    font-size: clamp(0.7rem, 1.2vw, 0.875rem);
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    color: rgba($sand, 0.8);
+    text-decoration: none;
+    border: none;
+    padding-bottom: 3px;
+    border-bottom: 1px solid transparent;
+    transition: color $transition-base, border-color $transition-base;
+
+    &:hover, &.active {
+      color: $sand;
+      border-bottom-color: $clay;               // clay underline — non-color cue
+    }
+  }
+
+  // Dropdown
+  .nav-dropdown {
+    position: relative;
+
+    &:hover .dropdown-menu {
+      opacity: 1;
+      pointer-events: all;
+      transform: translateY(0);
+    }
+
+    .dropdown-toggle::after {
+      content: ' ▾';
+      font-size: 0.75rem;
+      opacity: 0.5;
+    }
+
+    .dropdown-menu {
+      position: absolute;
+      top: calc(100% + 4px);
+      left: 0;
+      background: $moss-deep;
+      border: 1px solid rgba($moss, 0.2);
+      border-radius: $radius-md;
+      padding: $sp-xs 0;
+      min-width: 200px;
+      list-style: none;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(-8px);
+      transition: opacity $transition-base, transform $transition-base;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: -8px;
+        left: 0;
+        right: 0;
+        height: 8px;
+      }
+
+      li a {
+        display: block;
+        padding: $sp-xs $sp-sm;
+        font-family: $ff-mono;
+        font-size: clamp(0.7rem, 1.2vw, 0.875rem);
+        letter-spacing: 0.06em;
+        color: rgba($sand, 0.65);
+        text-decoration: none;
+        border: none;
+        font-weight: 400;
+        transition: background $transition-fast, color $transition-fast;
+
+        &:hover {
+          background: rgba($moss, 0.12);
+          color: $sand;
+        }
+      }
+    }
+  }
+}
+
+// ── Mobile ────────────────────────────────────────────────────────────────────
+@media (max-width: 900px) {
+  .site-nav {
+    flex-wrap: wrap;
+    height: auto;
+    padding: $sp-sm clamp(1rem, 4vw, 2rem);
+
+    .nav-toggle { display: flex; }
+
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      margin: $sp-sm 0 0;
+      gap: 0;
+      padding-bottom: $sp-sm;
+      margin-right: 0;
+
+      &.is-open { display: flex; }
+
+      li { width: 100%; }
+
+      .nav-link {
+        display: block;
+        padding: $sp-xs 0;
+        font-size: clamp(0.85rem, 2.5vw, 1rem);
+      }
+    }
+
+    .nav-dropdown {
+      width: 100%;
+
+      &:hover .dropdown-menu,
+      &:focus-within .dropdown-menu {
+        opacity: 1;
+        pointer-events: all;
+        transform: none;
+        position: static;
+        box-shadow: none;
+        border: none;
+        border-left: 1px solid rgba($moss, 0.25);
+        background: transparent;
+        padding: 0 0 0 $sp-sm;
+
+        li a {
+          font-size: clamp(0.8rem, 2vw, 0.95rem);
+          padding: $sp-xs 0;
+          color: rgba($sand, 0.65);
+          font-weight: 400;
+        }
+      }
+
+      .dropdown-menu { min-width: unset; width: 100%; }
+    }
+  }
+}
