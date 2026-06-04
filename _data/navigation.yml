@@ -6,17 +6,15 @@ main:
     url: /dataverzameling/
   - title: Standplaatsvereisten
     url: /standplaatsvereisten/
-    #children:
-     # - title: Peatlands in the EU
-     #   url: /peatlands/peatlands-eu/
-     # - title: Assessment
-     #   url: /peatlands/assessment/      
-     
-  # -title: Landscape perspectives
-  #  url: /landscape/
-  #  children:
-  #    - title: Wetlands
-  #      url: /landscape/wetlands/
+    children:
+      - title: Graslanden
+        url: /standplaatsvereisten/graslanden/
+      - title: Heide
+        url: /standplaatsvereisten/heide/ 
+        - title: Moerassen
+        url: /standplaatsvereisten/moerassen/
+        - title: Bossen
+        url: /standplaatsvereisten/bossen/     
   - title: Gunstige staat
     url: /gunstige-staat/
   - title: Kernbegrippen

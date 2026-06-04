@@ -19,8 +19,16 @@ Op deze website brengen we de ecologische randvoorwaarden van de diverse Vlaamse
 <div class="card-grid">
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/images/buitengoor.jpg' | relative_url }}" alt="Buitengoor, Belgium">
-      <span class="card-attribution">© Yves Adams, Vilda</span>
+      <img class="card-image" src="{{ '/assets/backgrounds/dataverzameling.jpg' | relative_url }}" alt="Vegetatieprpefvlak, Mechelse heide">
+    </div>
+    <h3 class="card-title">Dataverzameling</h3>
+    <a href="{{ '/dataverzameling/' | relative_url }}" class="btn">Learn more</a>
+  </div>
+
+<div class="card-grid">
+  <div class="card">
+    <div class="card-image-wrapper">
+      <img class="card-image" src="{{ '/assets/backgrounds/standplaatsvereisten.jpg' | relative_url }}" alt="Kalkhelling, Limburg">
     </div>
     <h3 class="card-title">Standplaatsvereisten van vegetatietypes</h3>
     <a href="{{ '/standplaatsvereisten/' | relative_url }}" class="btn">Learn more</a>
@@ -28,11 +36,11 @@ Op deze website brengen we de ecologische randvoorwaarden van de diverse Vlaamse
 
 <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/images/CoastalWetland.jpg' | relative_url }}" alt="Coastal wetland, Spain">
-      <span class="card-attribution">© Silvia Poblador, University of Barcelona</span>
+      <img class="card-image" src="{{ '/assets/images/gunstige-staat.jpg' | relative_url }}" alt="Buitengoor">
+      <span class="card-attribution">© Yves Adams, VILDA</span>
     </div>
     <h3 class="card-title">Referenties voor vegetatie in een gunstige staat</h3>
-    <a href="{{ '/landscape/' | relative_url }}" class="btn">Learn more</a>
+    <a href="{{ '/gunstige-staat/' | relative_url }}" class="btn">Learn more</a>
   </div>
   
 </div>
