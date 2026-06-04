@@ -33,8 +33,8 @@ $error:       #c0392b;
 
 // ── Typography ────────────────────────────────────────────────────────────────
 // Brandbook fonts: Playfair Display (display/headings) · Source Serif 4 (body) · DM Mono (labels/code)
-$ff-display: 'Playfair Display', Georgia, serif;
-$ff-serif:   'Source Serif 4', Georgia, serif;
+$ff-display: 'Lora', Georgia, serif;
+$ff-serif:   'Source Sans 3', system-ui, sans-serif;
 $ff-mono:    'DM Mono', 'Courier New', monospace;
 
 // Legacy aliases kept for compatibility with _content.scss references
