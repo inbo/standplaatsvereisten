@@ -1,0 +1,115 @@
+// =============================================================================
+// Standplaats.be — Flowchart Styles (Mermaid)
+// File: _sass/_flowchart.scss
+// =============================================================================
+
+.mermaid {
+  font-family: $ff-serif;
+
+  .greenfill > rect,
+  .greenfill > polygon {
+    fill: $moss !important;
+    stroke: $moss-dark !important;
+  }
+
+  .redfill > rect,
+  .redfill > polygon {
+    fill: $clay-deep !important;
+    stroke: $clay-dark !important;
+  }
+
+  .decision > rect,
+  .decision > polygon {
+    fill: $moss-dark !important;
+    stroke: $moss-deep !important;
+  }
+
+  .target > rect {
+    fill: $linen !important;
+    stroke: $blush !important;
+  }
+
+  .greenfill .nodeLabel,
+  .greenfill foreignObject div,
+  .greenfill foreignObject p {
+    color: $moss-deep !important;
+  }
+
+  .redfill .nodeLabel,
+  .redfill foreignObject div,
+  .redfill foreignObject p {
+    color: $sand !important;
+  }
+
+  .decision .nodeLabel,
+  .decision foreignObject div,
+  .decision foreignObject p {
+    color: $sand !important;
+  }
+
+  .target .nodeLabel,
+  .target foreignObject div,
+  .target foreignObject p {
+    color: $ink !important;
+  }
+
+  .decision foreignObject div,
+  .decision foreignObject p,
+  .target foreignObject div,
+  .target foreignObject p {
+    font-family: $ff-serif !important;
+    font-size: 17px !important;
+    line-height: 1.6 !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+    padding: 3px 5px !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+  }
+
+  .greenfill foreignObject div,
+  .greenfill foreignObject p,
+  .redfill foreignObject div,
+  .redfill foreignObject p {
+    font-family: $ff-mono !important;
+    font-size: 17px !important;
+    font-weight: 500 !important;
+    text-align: center !important;
+    padding: 2px !important;
+  }
+
+  .edgePath .path {
+    stroke: $ink-muted !important;
+    stroke-width: 1.5px !important;
+  }
+
+  .arrowheadPath {
+    fill: $ink-muted !important;
+    stroke: $ink-muted !important;
+  }
+
+  .edgeLabel {
+    background-color: $sand !important;
+
+    span,
+    p {
+      color: $ink-muted !important;
+      font-family: $ff-mono !important;
+      font-size: 13px !important;
+      font-weight: 500 !important;
+      letter-spacing: 0.06em !important;
+      background-color: $sand !important;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .mermaid {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+
+    svg {
+      min-width: 480px;
+    }
+  }
+}

@@ -9,6 +9,5 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-paginate"
   gem "jekyll-relative-links"
-  gem "jekyll-remote-theme"
   gem "jekyll-mermaid"
 end
