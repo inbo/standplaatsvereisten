@@ -333,6 +333,7 @@ blockquote {
   padding: $sp-md $sp-md $sp-lg;
   display: flex;
   flex-direction: column;
+  flex:1;
 
   // DM Mono eyebrow label
   .card-label {
@@ -395,6 +396,7 @@ blockquote {
   gap: $sp-sm;
   margin: $sp-lg 0;
   align-items: stretch;  // ← kaarten rekken uit naar de hoogte van de hoogste
+  width: 100%;
 
   @media (max-width: 900px) { grid-template-columns: repeat(2, 1fr); }
   @media (max-width: 600px) { grid-template-columns: 1fr; }

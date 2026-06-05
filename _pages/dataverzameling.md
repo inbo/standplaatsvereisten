@@ -1,7 +1,8 @@
 ---
 title: Dataverzameling
 description: Informatie over de data gebruikt in dit standplaatsonderzoek
-hero_image: "/assets/backgrounds/dataverzameling.jpg"
+hero_image: "/assets/backgrounds/hero_dataverzameling.jpg"
 #image_credit: "Toon de Vos"
+hero_overlay: true   # omit for photo only
 permalink: /dataverzameling/
 ---

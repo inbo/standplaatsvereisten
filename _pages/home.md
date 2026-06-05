@@ -1,7 +1,7 @@
 ---
 layout: base
 title: "Standplaatsvereisten van vegetatie"
-hero_image: "/assets/backgrounds/homepage.jpg"
+hero_image: "/assets/backgrounds/hero_home.jpg"
 #image_credit: "Yves Adams, Vilda"
 #hero_subtitle: "Practical restoration pathways for Europe's mires, bogs and fens"
 hero_overlay: true   # omit for photo only
@@ -23,26 +23,28 @@ Op deze website brengen we de ecologische randvoorwaarden van de diverse Vlaamse
 
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/dataverzameling.jpg' | relative_url }}" alt="Vegetatieprofvlak, Mechelse heide">
+      <img class="card-image" src="{{ '/assets/backgrounds/card_dataverzameling.jpg' | relative_url }}" alt="Peilbuis in grasland">
     </div>
     <h3 class="card-title">Dataverzameling</h3>
+    <p class="card-excerpt">Datasets en methoden voor datacollectie</p>
     <a href="{{ '/dataverzameling/' | relative_url }}" class="btn">Learn more</a>
   </div>
 
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/standplaatsvereisten.jpg' | relative_url }}" alt="Kalkhelling, Limburg">
+      <img class="card-image" src="{{ '/assets/backgrounds/card_standplaatsvereisten.jpg' | relative_url }}" alt="Grasland met boterbloemen">
     </div>
-    <h3 class="card-title">Standplaatsvereisten van vegetatietypes</h3>
+    <h3 class="card-title">Standplaatsvereisten</h3>
+    <p class="card-excerpt">Standplaatskarakteristieken van vegetatietypes</p>
     <a href="{{ '/standplaatsvereisten/' | relative_url }}" class="btn">Learn more</a>
   </div>
 
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/images/gunstige-staat.jpg' | relative_url }}" alt="Buitengoor">
-      <span class="card-attribution">© Yves Adams, VILDA</span>
+      <img class="card-image" src="{{ '/assets/backgrounds/card_gunstigestaat.jpg' | relative_url }}" alt="Blauwgrasland met orchideeën">
     </div>
-    <h3 class="card-title">Referenties voor vegetatie in een gunstige staat</h3>
+    <h3 class="card-title">Gunstige abiotische bereiken</h3>
+    <p class="card-excerpt">Referenties voor vegetatie in een gunstige staat</p>
     <a href="{{ '/gunstige-staat/' | relative_url }}" class="btn">Learn more</a>
   </div>
 

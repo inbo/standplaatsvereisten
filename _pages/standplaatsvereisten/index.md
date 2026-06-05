@@ -1,9 +1,9 @@
 ---
 layout: base
 title: "Standplaatskarakteristieken van vegetatietypes"
-hero_image: /assets/backgrounds/standplaatsvereisten.jpg
+hero_image: /assets/backgrounds/hero_standplaatsvereisten.jpg
 #image_credit: "Yves Adams, Vilda"
-#hero_overlay: true   # omit for photo only
+hero_overlay: true   # omit for photo only
 permalink: /standplaatsvereisten/
 toc: false
 ---
@@ -19,11 +19,11 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
   <div class="card">
     <div class="card-image-wrapper">
       <img class="card-image" src="{{ '/assets/backgrounds/cardgraslanden.jpg' | relative_url }}" alt="Graslanden aan Donkvijver in Oudenaarde">
+      <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">Graslanden</h3>
     <p class="card-excerpt">Standplaatskarakteristieken van graslandtypes.</p>
     <a href="{{ '/standplaatsvereisten/graslanden/' | relative_url }}" class="btn">Learn more</a>
-    <span class="card-attribution">© Yves Adams</span>
   </div>
   
   <div class="card">
@@ -32,7 +32,7 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">Heide</h3>
-    <p class="card-excerpt">Standplaatskarakteristieken van heidetypes.</p>
+    <p class="card-excerpt">Standplaatskarakteristieken van heidetypes</p>
     <a href="{{ '/standplaatsvereisten/heide/' | relative_url }}" class="btn">Learn more</a>
   </div>
 
@@ -42,7 +42,7 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">Moerassen</h3>
-    <p class="card-excerpt">Standplaatskarakteristieken van moerastypes.</p>
+    <p class="card-excerpt">Standplaatskarakteristieken van moerastypes</p>
     <a href="{{ '/standplaatsvereisten/moerassen/' | relative_url }}" class="btn">Learn more</a>
   </div>
 
@@ -52,7 +52,7 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">Bossen</h3>
-    <p class="card-excerpt">Standplaatskarakteristieken van bostypes.</p>
+    <p class="card-excerpt">Standplaatskarakteristieken van bostypes</p>
     <a href="{{ '/standplaatsvereisten/bossen/' | relative_url }}" class="btn">Learn more</a>
   </div>
 
