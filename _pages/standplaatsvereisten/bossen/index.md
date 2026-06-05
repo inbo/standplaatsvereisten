@@ -1,10 +1,10 @@
 ---
 layout: base
-title: "Standplaatskarakteristieken van vegetatietypes"
+title: "Standplaatskarakteristieken van bossen"
 hero_image: /assets/backgrounds/bossen.jpg
 image_credit: "Yves Adams, Vilda"
 # hero_overlay: true   # omit for photo only
-permalink: /standplaatsvereisten/
+permalink: /standplaatsvereisten/bossen/
 toc: false
 ---
 

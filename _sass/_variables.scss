@@ -32,10 +32,10 @@ $paper:       #FFFFFF;
 $error:       #c0392b;
 
 // ── Typography ────────────────────────────────────────────────────────────────
-// Brandbook fonts: Playfair Display (display/headings) · Source Serif 4 (body) · DM Mono (labels/code)
-$ff-display: 'Lora', Georgia, serif;
-$ff-serif:   'Source Sans 3', system-ui, sans-serif;
-$ff-mono:    'DM Mono', 'Courier New', monospace;
+// Brandbook fonts: Roboto Slab (display/headings) · PT Serif (body) · Courier New (labels/code)
+$ff-display: 'Roboto Slab', Georgia, serif;   // titels
+$ff-serif:   'PT Serif', Georgia, serif;       // broodtekst
+$ff-mono:    'Courier New', monospace;   // enkel voor code/pre
 
 // Legacy aliases kept for compatibility with _content.scss references
 $ff-sans:    $ff-serif;   // body text now uses Source Serif 4

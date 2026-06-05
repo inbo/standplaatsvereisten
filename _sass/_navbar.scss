@@ -83,7 +83,7 @@
   }
 
   .nav-link {
-    font-family: $ff-mono;                       // DM Mono — brandbook nav labels
+    font-family: $ff-display;                       // DM Mono — brandbook nav labels
     font-size: clamp(0.7rem, 1.2vw, 0.875rem);
     font-weight: 400;
     letter-spacing: 0.08em;
@@ -144,7 +144,7 @@
       li a {
         display: block;
         padding: $sp-xs $sp-sm;
-        font-family: $ff-mono;
+        font-family: $ff-display;
         font-size: clamp(0.7rem, 1.2vw, 0.875rem);
         letter-spacing: 0.06em;
         color: rgba($sand, 0.65);

@@ -59,7 +59,7 @@
     transform: translateX(-50%);
 
     a {
-      font-family: $ff-mono;                       // DM Mono
+      font-family: $ff-display;                    
       font-size: clamp(0.7rem, 1.2vw, 0.875rem);
       letter-spacing: 0.06em;
       color: rgba($sand, 0.65);
@@ -80,7 +80,7 @@
   }
 
   .footer-meta {
-    font-family: $ff-mono;                         // DM Mono — brandbook metadata
+    font-family: $ff-display;                        
     font-size: clamp(0.65rem, 1.2vw, 0.8rem);
     letter-spacing: 0.08em;
     color: rgba($sand, 0.5);
