@@ -3,11 +3,11 @@ tagline: "Standplaatsvereisten van vegetatie"
 
 partners:
   - name: INBO
-    #url: https://www.inbo.be/
-    #logo: /assets/images/logo_INBO.jpg
+    url: https://www.inbo.be/
+    logo: /assets/images/logo_INBO.jpg
   - name: Vlaamse Overheid
-    #url: https://www.vlaanderen.be/
-    #logo: /assets/images/logo_Vlaanderen.png
+    url: https://www.vlaanderen.be/
+    logo: /assets/images/logo_Vlaanderen.png
 
 links:
   - title: Disclaimer

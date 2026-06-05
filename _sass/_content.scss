@@ -331,6 +331,8 @@ blockquote {
   border: $border-card;
   border-radius: $radius-md;
   padding: $sp-md $sp-md $sp-lg;
+  display: flex;
+  flex-direction: column;
 
   // DM Mono eyebrow label
   .card-label {
@@ -351,6 +353,7 @@ blockquote {
     color: $moss-deep;             // ✓ AAA on $paper
     line-height: $lh-sub;
     margin-bottom: $sp-xs;
+    flex-grow: 1; // ← titel vult de ruimte op
   }
 
   .card-excerpt {
@@ -391,6 +394,7 @@ blockquote {
   grid-template-columns: repeat(3, 1fr);
   gap: $sp-sm;
   margin: $sp-lg 0;
+  align-items: stretch;  // ← kaarten rekken uit naar de hoogte van de hoogste
 
   @media (max-width: 900px) { grid-template-columns: repeat(2, 1fr); }
   @media (max-width: 600px) { grid-template-columns: 1fr; }

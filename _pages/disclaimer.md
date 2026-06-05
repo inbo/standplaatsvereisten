@@ -47,6 +47,6 @@ INBO neemt passende technische maatregelen om zijn systemen te beschermen tegen 
 Indien u opmerkingen of klachten heeft over deze website, kunt u contact opnemen met INBO.
 
 ## Contactgegevens
-Website INBO: https://www.vlaanderen.be/inbo/en-gb/homepage/
+Website INBO: https://www.vlaanderen.be/inbo/en-gb/homepage/                            
 Contact: https://www.vlaanderen.be/inbo/en-gb/contact-inbo/
 

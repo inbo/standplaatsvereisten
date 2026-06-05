@@ -18,16 +18,17 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
   
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/graslanden.jpg' | relative_url }}" alt="Blauwgrasland">
+      <img class="card-image" src="{{ '/assets/backgrounds/cardgraslanden.jpg' | relative_url }}" alt="Graslanden aan Donkvijver in Oudenaarde">
     </div>
     <h3 class="card-title">Graslanden</h3>
     <p class="card-excerpt">Standplaatskarakteristieken van graslandtypes.</p>
     <a href="{{ '/standplaatsvereisten/graslanden/' | relative_url }}" class="btn">Learn more</a>
+    <span class="card-attribution">© Yves Adams</span>
   </div>
   
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/heide.jpg' | relative_url }}" alt="Heidebeeld in Nationaal Park Hoge Kempen">
+      <img class="card-image" src="{{ '/assets/backgrounds/cardheide.jpg' | relative_url }}" alt="Heidebeeld in Nationaal Park Hoge Kempen">
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">Heide</h3>
@@ -37,7 +38,7 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
 
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/moerassen.jpg' | relative_url }}" alt="Verlandingsvegetatie De Teut, Zonhoven">
+      <img class="card-image" src="{{ '/assets/backgrounds/cardmoerassen.jpg' | relative_url }}" alt="Verlandingsvegetatie De Teut, Zonhoven">
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">Moerassen</h3>
@@ -47,7 +48,7 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
 
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/bossen.jpg' | relative_url }}" alt="Bossen in Sint Lievens Houtem">
+      <img class="card-image" src="{{ '/assets/backgrounds/cardbossen.jpg' | relative_url }}" alt="Bossen in Sint Lievens Houtem">
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">Bossen</h3>

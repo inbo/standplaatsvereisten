@@ -4,6 +4,7 @@ title: "Standplaatsvereisten van vegetatie"
 hero_image: "/assets/backgrounds/homepage.jpg"
 #image_credit: "Yves Adams, Vilda"
 #hero_subtitle: "Practical restoration pathways for Europe's mires, bogs and fens"
+hero_overlay: true   # omit for photo only
 permalink: /
 toc: false
 ---
@@ -19,15 +20,15 @@ Op deze website brengen we de ecologische randvoorwaarden van de diverse Vlaamse
 </blockquote>
 
 <div class="card-grid">
+
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/dataverzameling.jpg' | relative_url }}" alt="Vegetatieprpefvlak, Mechelse heide">
+      <img class="card-image" src="{{ '/assets/backgrounds/dataverzameling.jpg' | relative_url }}" alt="Vegetatieprofvlak, Mechelse heide">
     </div>
     <h3 class="card-title">Dataverzameling</h3>
     <a href="{{ '/dataverzameling/' | relative_url }}" class="btn">Learn more</a>
   </div>
 
-<div class="card-grid">
   <div class="card">
     <div class="card-image-wrapper">
       <img class="card-image" src="{{ '/assets/backgrounds/standplaatsvereisten.jpg' | relative_url }}" alt="Kalkhelling, Limburg">
@@ -36,7 +37,7 @@ Op deze website brengen we de ecologische randvoorwaarden van de diverse Vlaamse
     <a href="{{ '/standplaatsvereisten/' | relative_url }}" class="btn">Learn more</a>
   </div>
 
-<div class="card">
+  <div class="card">
     <div class="card-image-wrapper">
       <img class="card-image" src="{{ '/assets/images/gunstige-staat.jpg' | relative_url }}" alt="Buitengoor">
       <span class="card-attribution">© Yves Adams, VILDA</span>
@@ -44,5 +45,5 @@ Op deze website brengen we de ecologische randvoorwaarden van de diverse Vlaamse
     <h3 class="card-title">Referenties voor vegetatie in een gunstige staat</h3>
     <a href="{{ '/gunstige-staat/' | relative_url }}" class="btn">Learn more</a>
   </div>
-  
+
 </div>
