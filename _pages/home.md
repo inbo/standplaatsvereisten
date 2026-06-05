@@ -19,13 +19,14 @@ Op deze website brengen we de ecologische randvoorwaarden van de diverse Vlaamse
 "De juiste plant op de juiste plek: hoe ecologische randvoorwaarden de Vlaamse natuur kleur geven.”
 </blockquote>
 
+
 <div class="card-grid">
 
   <div class="card">
     <div class="card-image-wrapper">
       <img class="card-image" src="{{ '/assets/backgrounds/card_dataverzameling.jpg' | relative_url }}" alt="Peilbuis in grasland">
     </div>
-    <h3 class="card-title">Dataverzameling</h3>
+    <h3 class="card-title">Data-verzameling</h3>
     <p class="card-excerpt">Datasets en methoden voor datacollectie</p>
     <a href="{{ '/dataverzameling/' | relative_url }}" class="btn">Learn more</a>
   </div>
@@ -34,8 +35,8 @@ Op deze website brengen we de ecologische randvoorwaarden van de diverse Vlaamse
     <div class="card-image-wrapper">
       <img class="card-image" src="{{ '/assets/backgrounds/card_standplaatsvereisten.jpg' | relative_url }}" alt="Grasland met boterbloemen">
     </div>
-    <h3 class="card-title">Standplaatsvereisten</h3>
-    <p class="card-excerpt">Standplaatskarakteristieken van vegetatietypes</p>
+    <h3 class="card-title">Standplaats-vereisten</h3>
+    <p class="card-excerpt">Standplaatseisen van vegetatietypes</p>
     <a href="{{ '/standplaatsvereisten/' | relative_url }}" class="btn">Learn more</a>
   </div>
 

@@ -333,7 +333,11 @@ blockquote {
   padding: $sp-md $sp-md $sp-lg;
   display: flex;
   flex-direction: column;
-  flex:1;
+  
+  .btn {
+    margin-top: auto;            // ← duwt de knop altijd naar onder
+    align-self: flex-start;      // ← knop neemt niet de volledige breedte
+  }
 
   // DM Mono eyebrow label
   .card-label {
@@ -353,8 +357,11 @@ blockquote {
     font-weight: 400;
     color: $moss-deep;             // ✓ AAA on $paper
     line-height: $lh-sub;
-    margin-bottom: $sp-xs;
-    flex-grow: 1; // ← titel vult de ruimte op
+    margin-bottom: $sp-sm;
+    min-height: 3 em;
+    flex-grow: 1;
+    overflow-wrap: break-word; // ← breekt lange woorden af
+    word-break: break-word;
   }
 
   .card-excerpt {
@@ -363,7 +370,10 @@ blockquote {
     font-weight: 300;
     color: $ink-muted;
     line-height: 1.65;
+    overflow-wrap: break-word;
+    word-break: break-word;
   }
+
 
   // Green tag — moss scale
   .card-tag {
@@ -397,6 +407,7 @@ blockquote {
   margin: $sp-lg 0;
   align-items: stretch;  // ← kaarten rekken uit naar de hoogte van de hoogste
   width: 100%;
+  max-width: 100%;          // ← overschrijft eventuele max-width van parent
 
   @media (max-width: 900px) { grid-template-columns: repeat(2, 1fr); }
   @media (max-width: 600px) { grid-template-columns: 1fr; }
@@ -428,6 +439,14 @@ blockquote {
     padding: 2px 6px;
     border-radius: 3px;
   }
+
+.page-content {
+  min-width: 0;
+  
+  .card-grid {
+    max-width: none;         // ← geen max-width beperking op de grid
+  }
+
 }
 
 // ── Callout Blocks ────────────────────────────────────────────────────────────
@@ -626,4 +645,5 @@ sup a.fnref {
   border-bottom: 1px dotted $moss-dark;
   cursor: help;
   padding-bottom: 1px;
+}
 }
