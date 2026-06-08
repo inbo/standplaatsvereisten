@@ -1,7 +1,7 @@
 # SITE SETTINGS
 title: Standplaatsvereisten van vegetatie
 author: INBO
-baseurl: "/standplaatsvereisten"
+baseurl: ""
 url: "https://github.com/inbo/standplaatsvereisten"
 
 # THEME SETTINGS
