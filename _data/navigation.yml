@@ -1,8 +1,15 @@
 main:
   - title: About
     url: /about/
-  - title: Dataverzameling
-    url: /dataverzameling/
+  - title: Data
+    url: /data/
+    children:
+      - title: Standplaatsfactoren
+        url: /data/factoren/
+      - title: Datasets
+        url: /data/datasets/ 
+      - title: Methode
+        url: /data/methode/ 
   - title: Standplaatsvereisten
     url: /standplaatsvereisten/
     children:

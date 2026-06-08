@@ -26,9 +26,9 @@ Op deze website brengen we de ecologische randvoorwaarden van de diverse Vlaamse
     <div class="card-image-wrapper">
       <img class="card-image" src="{{ '/assets/backgrounds/card_dataverzameling.jpg' | relative_url }}" alt="Peilbuis in grasland">
     </div>
-    <h3 class="card-title">Data-verzameling</h3>
-    <p class="card-excerpt">Datasets en methoden voor datacollectie</p>
-    <a href="{{ '/dataverzameling/' | relative_url }}" class="btn">Learn more</a>
+    <h3 class="card-title">Data</h3>
+    <p class="card-excerpt">Standplaatsfactoren, datasets en methoden</p>
+    <a href="{{ '/data/' | relative_url }}" class="btn">Learn more</a>
   </div>
 
   <div class="card">

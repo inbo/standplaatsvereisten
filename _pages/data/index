@@ -1,8 +1,8 @@
 ---
-title: Dataverzameling
-description: Informatie over de data gebruikt in dit standplaatsonderzoek
+title: Data
+description: Standplaatsfactoren, datsets en methode.
 hero_image: "/assets/backgrounds/hero_dataverzameling.jpg"
 #image_credit: "Toon de Vos"
 hero_overlay: true   # omit for photo only
-permalink: /dataverzameling/
+permalink: /data/
 ---
