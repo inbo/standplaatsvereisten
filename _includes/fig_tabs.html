@@ -1,0 +1,67 @@
+<!--
+  Figure Tabs Include — _includes/fig_tabs.html
+
+  Usage:
+  include fig_tabs.html
+     figures="pH_CaCl2.png,logCaCO3.png,logCa.png,CEC.png,BV.png,logN_Kj.png,logP_Olsen.png,logFePO.png"
+     labels="pH CaCl2,log CaCO3,log Ca,CEC,BV,log N Kj,log P Olsen,log FePO"
+     folder="/assets/figures/"
+     caption="Bodemparameters per vegetatietype"
+     id="bodem-tabs"
+-->
+{% assign fig_list   = include.figures | split: "," %}
+{% assign label_list = include.labels  | split: "," %}
+{% assign tab_id     = include.id | default: "figtabs" %}
+
+<div class="fig-tabs" id="{{ tab_id }}">
+
+  <div class="fig-tab-images">
+    {% for fig in fig_list %}
+      <img
+        class="fig-tab-img{% if forloop.first %} active{% endif %}"
+        src="{{ include.folder | append: fig | strip | relative_url }}"
+        alt="{{ label_list[forloop.index0] | strip }}"
+        loading="{% if forloop.first %}eager{% else %}lazy{% endif %}"
+      >
+    {% endfor %}
+  </div>
+
+  <div class="fig-tab-btns" role="tablist" aria-label="Figuren">
+    {% for label in label_list %}
+      <button
+        class="fig-tab-btn{% if forloop.first %} active{% endif %}"
+        data-tab="{{ forloop.index0 }}"
+        data-target="{{ tab_id }}"
+        role="tab"
+        aria-selected="{% if forloop.first %}true{% else %}false{% endif %}"
+      >{{ label | strip }}</button>
+    {% endfor %}
+  </div>
+
+  {% if include.caption %}
+    <p class="fig-tab-caption">{{ include.caption }}</p>
+  {% endif %}
+
+</div>
+
+<script>
+(function() {
+  var container = document.getElementById('{{ tab_id }}');
+  if (!container) return;
+  container.querySelectorAll('.fig-tab-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var idx = btn.dataset.tab;
+      container.querySelectorAll('.fig-tab-btn').forEach(function(b) {
+        b.classList.remove('active');
+        b.setAttribute('aria-selected', 'false');
+      });
+      container.querySelectorAll('.fig-tab-img').forEach(function(img) {
+        img.classList.remove('active');
+      });
+      btn.classList.add('active');
+      btn.setAttribute('aria-selected', 'true');
+      container.querySelectorAll('.fig-tab-img')[idx].classList.add('active');
+    });
+  });
+})();
+</script>

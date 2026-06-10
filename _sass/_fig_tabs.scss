@@ -1,0 +1,98 @@
+// =============================================================================
+// Standplaats.be — Figure Tabs Component
+// File: _sass/_fig_tabs.scss
+// Imported by: _styles.scss  →  @import "fig_tabs";
+// =============================================================================
+
+.fig-tabs {
+  max-width: 700px;
+  margin: $sp-lg auto;
+
+  // ── Figure display area ───────────────────────────────────────────────────
+  .fig-tab-images {
+    position: relative;
+    background: $paper;
+    border: $border-card;
+    border-radius: $radius-md $radius-md 0 0;
+    padding: $sp-sm;
+
+    .fig-tab-img {
+      display: none;
+      max-height: 400px;
+      width: 100%;
+      height: auto;
+      border-radius: $radius-sm;
+      object-fit: contain;
+
+      &.active { display: block; }
+    }
+  }
+
+  // ── Tab button bar ────────────────────────────────────────────────────────
+  .fig-tab-btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    background: $linen;
+    border: $border-card;
+    border-top: none;
+    border-radius: 0 0 $radius-md $radius-md;
+    padding: $sp-xs $sp-xs;
+
+    .fig-tab-btn {
+      font-family: $ff-display;
+      font-size: $fs-eyebrow;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      padding: 5px 12px;
+      border: 1px solid transparent;
+      border-radius: $radius-sm;
+      background: transparent;
+      color: $ink-muted;
+      cursor: pointer;
+      transition: background $transition-fast, color $transition-fast, border-color $transition-fast;
+
+      &:hover {
+        background: $paper;
+        color: $moss-dark;
+        border-color: $moss;
+      }
+
+      // Active tab — moss green
+      &.active {
+        background: $moss-dark;
+        color: $paper;
+        border-color: $moss-dark;
+      }
+
+      // Clay variant — use class="fig-tab-btn fig-tab-btn--clay" for alternating
+      &--clay.active {
+        background: $clay-dark;
+        color: $paper;
+        border-color: $clay-dark;
+      }
+    }
+  }
+
+  // ── Optional caption below tabs ───────────────────────────────────────────
+  .fig-tab-caption {
+    font-family: $ff-serif;
+    font-size: $fs-caption;
+    color: $ink-muted;
+    margin-top: $sp-xs;
+    font-style: italic;
+    line-height: $lh-caption;
+  }
+}
+
+// ── Responsive ────────────────────────────────────────────────────────────────
+@media (max-width: 600px) {
+  .fig-tabs {
+    .fig-tab-btns {
+      .fig-tab-btn {
+        font-size: 0.6rem;
+        padding: 4px 8px;
+      }
+    }
+  }
+}
