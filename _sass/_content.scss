@@ -647,3 +647,24 @@ sup a.fnref {
   padding-bottom: 1px;
 }
 }
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: $sp-sm;
+  margin: $sp-lg 0;
+
+  img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;       // ← ronde foto's
+    border: 2px solid $blush;
+    transition: transform $transition-base, border-color $transition-base;
+
+    &:hover {
+      transform: scale(1.05);
+      border-color: $moss;
+    }
+  }
+}
