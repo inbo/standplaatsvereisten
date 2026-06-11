@@ -31,19 +31,19 @@ Verschillende teams hebben samengewerkt om bestaande gegevens aan te leveren, ni
 Hier een beperkte weergave van een team van betrokken collega’s:
 
 <div class="team-grid">
-  <img src="{{ '/assets/images/team/team1.jpg' | relative_url }}" alt="Medewerker">
-  <img src="{{ '/assets/images/team/team2.jpg' | relative_url }}" alt="Medewerker">
-  <img src="{{ '/assets/images/team/team3.jpg' | relative_url }}" alt="Medewerker">
-  <img src="{{ '/assets/images/team/team4.jpg' | relative_url }}" alt="Medewerker">
-  <img src="{{ '/assets/images/team/team5.jpg' | relative_url }}" alt="Medewerker">
-  <img src="{{ '/assets/images/team/team6.jpg' | relative_url }}" alt="Medewerker">
-  <img src="{{ '/assets/images/team/team7.jpg' | relative_url }}" alt="Medewerker">
-  <img src="{{ '/assets/images/team/team8.jpg' | relative_url }}" alt="Medewerker">
-  <img src="{{ '/assets/images/team/team9.jpg' | relative_url }}" alt="Medewerker">
-  <img src="{{ '/assets/images/team/team10.jpg' | relative_url }}" alt="Medewerker">
-  <img src="{{ '/assets/images/team/team11.jpg' | relative_url }}" alt="Medewerker">
-  <img src="{{ '/assets/images/team/team12.jpg' | relative_url }}" alt="Medewerker">
-  <img src="{{ '/assets/images/team/team13.jpg' | relative_url }}" alt="Medewerker">
-  <img src="{{ '/assets/images/team/team14.jpg' | relative_url }}" alt="Medewerker">
-  <img src="{{ '/assets/images/team/team15.jpg' | relative_url }}" alt="Medewerker">
+  <img src="{{ '/assets/images/team/team1.jpg' | relative_url }}" alt="Medewerker Jan">
+  <img src="{{ '/assets/images/team/team2.jpg' | relative_url }}" alt="Medewerker Cécile">
+  <img src="{{ '/assets/images/team/team3.jpg' | relative_url }}" alt="Medewerker Maud">
+  <img src="{{ '/assets/images/team/team4.jpg' | relative_url }}" alt="Medewerkers Dries en Piet">
+  <img src="{{ '/assets/images/team/team5.jpg' | relative_url }}" alt="Medewerker Nathalie">
+  <img src="{{ '/assets/images/team/team6.jpg' | relative_url }}" alt="Medewerker Bruno">
+  <img src="{{ '/assets/images/team/team7.jpg' | relative_url }}" alt="Medewerker Robin">
+  <img src="{{ '/assets/images/team/team8.jpg' | relative_url }}" alt="Medewerker Mathieu">
+  <img src="{{ '/assets/images/team/team9.jpg' | relative_url }}" alt="Medewerker Koen">
+  <img src="{{ '/assets/images/team/team10.jpg' | relative_url }}" alt="Medewerker Koen">
+  <img src="{{ '/assets/images/team/team11.jpg' | relative_url }}" alt="Medewerker Mathias">
+  <img src="{{ '/assets/images/team/team12.jpg' | relative_url }}" alt="Medewerkers Mathieu en Koen">
+  <img src="{{ '/assets/images/team/team13.jpg' | relative_url }}" alt="Medewerker Arthur">
+  <img src="{{ '/assets/images/team/team14.jpg' | relative_url }}" alt="Medewerkers in groep">
+  <img src="{{ '/assets/images/team/team15.jpg' | relative_url }}" alt="Medewerkers Cécile en Patrik">
 </div>
