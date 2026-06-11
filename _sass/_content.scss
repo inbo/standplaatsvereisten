@@ -241,11 +241,11 @@ blockquote {
 
 // ── Section System ────────────────────────────────────────────────────────────
 .page-section {
-  padding: $sp-3xl 0;
-  border-bottom: 1px solid $blush;
+  padding: $sp-lg 0;
+  //border-bottom: 1px solid $blush;
 
-  &:nth-child(even) { background: $linen; }   // #F4EEED
-  &:nth-child(odd)  { background: $sand; }    // #FAF4E3
+  //&:nth-child(even) { background: $linen; }   // #F4EEED
+  //&:nth-child(odd)  { background: $sand; }    // #FAF4E3
 
   .section-inner {
     max-width: $max-content;
