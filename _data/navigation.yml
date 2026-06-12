@@ -13,10 +13,14 @@ main:
   - title: Standplaatsvereisten
     url: /standplaatsvereisten/
     children:
+      - title: Kusthabitats
+        url: /standplaatsvereisten/kusthabitats/
+      - title: Duinen
+        url: /standplaatsvereisten/duinen/
+      - title: Heide
+        url: /standplaatsvereisten/heide/
       - title: Graslanden
         url: /standplaatsvereisten/graslanden/
-      - title: Heide
-        url: /standplaatsvereisten/heide/ 
       - title: Moerassen
         url: /standplaatsvereisten/moerassen/
       - title: Bossen
