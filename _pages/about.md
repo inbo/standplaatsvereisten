@@ -32,7 +32,7 @@ Hier een beperkte weergave van een team van betrokken collega’s:
 
 <div class="team-grid">
   <img src="{{ '/assets/images/team/team01.jpg' | relative_url }}" alt="Medewerker Jan">
-  <img src="{{ '/assets/images/team/team02.jpg' | relative_url }}" alt="Medewerker Cécile">
+  <img src="{{ '/assets/images/team/team02.jpg' | relative_url }}" alt="Medewerker Cecile">
   <img src="{{ '/assets/images/team/team03.jpg' | relative_url }}" alt="Medewerker Maud">
   <img src="{{ '/assets/images/team/team04.jpg' | relative_url }}" alt="Medewerkers Dries en Piet">
   <img src="{{ '/assets/images/team/team05.jpg' | relative_url }}" alt="Medewerker Nathalie">
@@ -45,5 +45,5 @@ Hier een beperkte weergave van een team van betrokken collega’s:
   <img src="{{ '/assets/images/team/team12.jpg' | relative_url }}" alt="Medewerkers Mathieu en Koen">
   <img src="{{ '/assets/images/team/team13.jpg' | relative_url }}" alt="Medewerker Arthur">
   <img src="{{ '/assets/images/team/team14.jpg' | relative_url }}" alt="Medewerkers in groep">
-  <img src="{{ '/assets/images/team/team15.jpg' | relative_url }}" alt="Medewerkers Cécile en Patrik">
+  <img src="{{ '/assets/images/team/team15.jpg' | relative_url }}" alt="Medewerkers Cecile en Patrik">
 </div>
