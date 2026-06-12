@@ -15,15 +15,24 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
 </blockquote>
 
 <div class="card-grid">
-  
-  <div class="card">
+    <div class="card">
     <div class="card-image-wrapper">
       <img class="card-image" src="{{ '/assets/backgrounds/cardgraslanden.jpg' | relative_url }}" alt="Graslanden aan Donkvijver in Oudenaarde">
       <span class="card-attribution">© Yves Adams</span>
     </div>
-    <h3 class="card-title">Graslanden</h3>
-    <p class="card-excerpt">Standplaatskarakteristieken van graslandtypes.</p>
-    <a href="{{ '/standplaatsvereisten/graslanden/' | relative_url }}" class="btn">Learn more</a>
+    <h3 class="card-title">Kusthabitats</h3>
+    <p class="card-excerpt">Standplaatskarakteristieken van kusthabitats</p>
+    <a href="{{ '/standplaatsvereisten/kusthabitats/' | relative_url }}" class="btn">Learn more</a>
+  </div>
+
+  <div class="card">
+  <div class="card-image-wrapper">
+     <img class="card-image" src="{{ '/assets/backgrounds/cardgraslanden.jpg' | relative_url }}" alt="Graslanden aan Donkvijver in Oudenaarde">
+     <span class="card-attribution">© Yves Adams</span>
+    </div>
+    <h3 class="card-title">Duinen</h3>
+    <p class="card-excerpt">Standplaatskarakteristieken van duinen</p>
+    <a href="{{ '/standplaatsvereisten/duinen/' | relative_url }}" class="btn">Learn more</a>
   </div>
   
   <div class="card">
@@ -34,6 +43,16 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
     <h3 class="card-title">Heide</h3>
     <p class="card-excerpt">Standplaatskarakteristieken van heidetypes</p>
     <a href="{{ '/standplaatsvereisten/heide/' | relative_url }}" class="btn">Learn more</a>
+  </div>
+  
+  <div class="card">
+    <div class="card-image-wrapper">
+      <img class="card-image" src="{{ '/assets/backgrounds/cardgraslanden.jpg' | relative_url }}" alt="Graslanden aan Donkvijver in Oudenaarde">
+      <span class="card-attribution">© Yves Adams</span>
+    </div>
+    <h3 class="card-title">Graslanden</h3>
+    <p class="card-excerpt">Standplaatskarakteristieken van graslandtypes.</p>
+    <a href="{{ '/standplaatsvereisten/graslanden/' | relative_url }}" class="btn">Learn more</a>
   </div>
 
   <div class="card">
