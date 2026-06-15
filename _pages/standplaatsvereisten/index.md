@@ -17,7 +17,7 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
 <div class="card-grid">
     <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/card_graslanden.jpg' | relative_url }}" alt="Graslanden aan Donkvijver in Oudenaarde">
+      <img class="card-image" src="{{ '/assets/backgrounds/card_kusthabitats.jpg' | relative_url }}" alt="Graslanden aan Donkvijver in Oudenaarde">
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">Kusthabitats</h3>
@@ -27,7 +27,7 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
 
   <div class="card">
   <div class="card-image-wrapper">
-     <img class="card-image" src="{{ '/assets/backgrounds/card_graslanden.jpg' | relative_url }}" alt="Graslanden aan Donkvijver in Oudenaarde">
+     <img class="card-image" src="{{ '/assets/backgrounds/card_duinen.jpg' | relative_url }}" alt="Graslanden aan Donkvijver in Oudenaarde">
      <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">Duinen</h3>

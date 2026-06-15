@@ -3,7 +3,7 @@ layout: base
 title: "Standplaatskarakteristieken van bossen"
 hero_image: /assets/backgrounds/hero_bossen.jpg
 image_credit: "Luc De Keersmaeker"
-# hero_overlay: true   # omit for photo only
+hero_overlay: true   # omit for photo only
 permalink: /standplaatsvereisten/bossen/
 toc: false
 ---

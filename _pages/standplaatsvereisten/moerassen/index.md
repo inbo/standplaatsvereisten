@@ -12,7 +12,7 @@ toc: false
   
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/7140.jpg' | relative_url }}" alt="Beukenbos">
+      <img class="card-image" src="{{ '/assets/backgrounds/card_7140.jpg' | relative_url }}" alt="Beukenbos">
     <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">7140</h3>
@@ -22,7 +22,7 @@ toc: false
   
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/7150.jpg' | relative_url }}" alt="Beukenbos">
+      <img class="card-image" src="{{ '/assets/backgrounds/card_7150.jpg' | relative_url }}" alt="Beukenbos">
     <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">7150</h3>
@@ -32,7 +32,7 @@ toc: false
 
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/7210.jpg' | relative_url }}" alt="Beukenbos">
+      <img class="card-image" src="{{ '/assets/backgrounds/card_7210.jpg' | relative_url }}" alt="Beukenbos">
     <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">7210</h3>
@@ -42,7 +42,7 @@ toc: false
 
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/7220.jpg' | relative_url }}" alt="Beukenbos">
+      <img class="card-image" src="{{ '/assets/backgrounds/card_7220.jpg' | relative_url }}" alt="Beukenbos">
     <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">7220</h3>
@@ -52,7 +52,7 @@ toc: false
 
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/7230.jpg' | relative_url }}" alt="Beukenbos">
+      <img class="card-image" src="{{ '/assets/backgrounds/card_7230.jpg' | relative_url }}" alt="Beukenbos">
     <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">7230</h3>

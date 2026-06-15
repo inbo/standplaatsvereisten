@@ -12,7 +12,7 @@ toc: false
   
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/1330.jpg' | relative_url }}" alt="Beukenbos">
+      <img class="card-image" src="{{ '/assets/backgrounds/card_1330.jpg' | relative_url }}" alt="Beukenbos">
     <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">1330</h3>

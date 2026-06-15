@@ -12,7 +12,7 @@ toc: false
   
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/6230.jpg' | relative_url }}" alt="Beukenbos">
+      <img class="card-image" src="{{ '/assets/backgrounds/card_6230.jpg' | relative_url }}" alt="Beukenbos">
     <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">6230</h3>
@@ -22,7 +22,7 @@ toc: false
 
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/6410.jpg' | relative_url }}" alt="Elzenbroekbos">
+      <img class="card-image" src="{{ '/assets/backgrounds/card_6410.jpg' | relative_url }}" alt="Elzenbroekbos">
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">6410</h3>
@@ -32,7 +32,7 @@ toc: false
 
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/6430.jpg' | relative_url }}" alt="Elzenbroekbos">
+      <img class="card-image" src="{{ '/assets/backgrounds/card_6430.jpg' | relative_url }}" alt="Elzenbroekbos">
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">6430</h3>
@@ -42,12 +42,32 @@ toc: false
   
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/6510.jpg' | relative_url }}" alt="Elzenbroekbos">
+      <img class="card-image" src="{{ '/assets/backgrounds/card_6510.jpg' | relative_url }}" alt="Elzenbroekbos">
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">6510</h3>
     <p class="card-excerpt">Standplaats-karakteristieken van 6510</p>
     <a href="{{ '/standplaatsvereisten/graslanden/6510' | relative_url }}" class="btn">Learn more</a>
+  </div>
+
+   <div class="card">
+    <div class="card-image-wrapper">
+      <img class="card-image" src="{{ '/assets/backgrounds/card_rbbhc.jpg' | relative_url }}" alt="Elzenbroekbos">
+      <span class="card-attribution">© Yves Adams</span>
+    </div>
+    <h3 class="card-title">Rbbhc</h3>
+    <p class="card-excerpt">Standplaats-karakteristieken van rbbhc</p>
+    <a href="{{ '/standplaatsvereisten/graslanden/rbbhc' | relative_url }}" class="btn">Learn more</a>
+  </div>
+
+   <div class="card">
+    <div class="card-image-wrapper">
+      <img class="card-image" src="{{ '/assets/backgrounds/card_rbbvos.jpg' | relative_url }}" alt="Elzenbroekbos">
+      <span class="card-attribution">© Yves Adams</span>
+    </div>
+    <h3 class="card-title">Rbbvos</h3>
+    <p class="card-excerpt">Standplaats-karakteristieken van rbbvos</p>
+    <a href="{{ '/standplaatsvereisten/graslanden/rbbvos' | relative_url }}" class="btn">Learn more</a>
   </div>
 
 </div>
