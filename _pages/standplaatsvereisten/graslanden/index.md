@@ -22,7 +22,7 @@ toc: false
 
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/card_6410.jpg' | relative_url }}" alt="Elzenbroekbos">
+      <img class="card-image" src="{{ '/assets/backgrounds/card_6410.jpg' | relative_url }}" alt="Blauwgrasland">
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">6410</h3>
@@ -52,8 +52,7 @@ toc: false
 
    <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/card_rbbhc.jpg' | relative_url }}" alt="Elzenbroekbos">
-      <span class="card-attribution">© Yves Adams</span>
+      <img class="card-image" src="{{ '/assets/backgrounds/card_rbbhc.jpg' | relative_url }}" alt="Dottergrasland">
     </div>
     <h3 class="card-title">Rbbhc</h3>
     <p class="card-excerpt">Standplaats-karakteristieken van rbbhc</p>
@@ -62,8 +61,7 @@ toc: false
 
    <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/card_rbbvos.jpg' | relative_url }}" alt="Elzenbroekbos">
-      <span class="card-attribution">© Yves Adams</span>
+      <img class="card-image" src="{{ '/assets/backgrounds/card_rbbvos.jpg' | relative_url }}" alt="Vossenstaartgrasland">
     </div>
     <h3 class="card-title">Rbbvos</h3>
     <p class="card-excerpt">Standplaats-karakteristieken van rbbvos</p>

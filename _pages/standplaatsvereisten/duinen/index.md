@@ -26,7 +26,7 @@ toc: false
   
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/card_2190.jpg' | relative_url }}" alt="Elzenbroekbos">
+      <img class="card-image" src="{{ '/assets/backgrounds/card_2190.jpg' | relative_url }}" alt="Natte duinpanne, Westhoek">
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">2190</h3>
