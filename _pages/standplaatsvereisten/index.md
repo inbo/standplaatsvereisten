@@ -17,7 +17,7 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
 <div class="card-grid">
     <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/cardgraslanden.jpg' | relative_url }}" alt="Graslanden aan Donkvijver in Oudenaarde">
+      <img class="card-image" src="{{ '/assets/backgrounds/card_graslanden.jpg' | relative_url }}" alt="Graslanden aan Donkvijver in Oudenaarde">
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">Kusthabitats</h3>
@@ -27,7 +27,7 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
 
   <div class="card">
   <div class="card-image-wrapper">
-     <img class="card-image" src="{{ '/assets/backgrounds/cardgraslanden.jpg' | relative_url }}" alt="Graslanden aan Donkvijver in Oudenaarde">
+     <img class="card-image" src="{{ '/assets/backgrounds/card_graslanden.jpg' | relative_url }}" alt="Graslanden aan Donkvijver in Oudenaarde">
      <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">Duinen</h3>
@@ -37,7 +37,7 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
   
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/cardheide.jpg' | relative_url }}" alt="Heidebeeld in Nationaal Park Hoge Kempen">
+      <img class="card-image" src="{{ '/assets/backgrounds/card_heide.jpg' | relative_url }}" alt="Heidebeeld in Nationaal Park Hoge Kempen">
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">Heide</h3>
@@ -47,7 +47,7 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
   
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/cardgraslanden.jpg' | relative_url }}" alt="Graslanden aan Donkvijver in Oudenaarde">
+      <img class="card-image" src="{{ '/assets/backgrounds/card_graslanden.jpg' | relative_url }}" alt="Graslanden aan Donkvijver in Oudenaarde">
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">Graslanden</h3>
@@ -57,7 +57,7 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
 
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/cardmoerassen.jpg' | relative_url }}" alt="Verlandingsvegetatie De Teut, Zonhoven">
+      <img class="card-image" src="{{ '/assets/backgrounds/card_moerassen.jpg' | relative_url }}" alt="Verlandingsvegetatie De Teut, Zonhoven">
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">Moerassen</h3>
@@ -67,7 +67,7 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
 
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/cardbossen.jpg' | relative_url }}" alt="Bossen in Sint Lievens Houtem">
+      <img class="card-image" src="{{ '/assets/backgrounds/card_bossen.jpg' | relative_url }}" alt="Bossen in Sint Lievens Houtem">
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">Bossen</h3>

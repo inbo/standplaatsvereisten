@@ -1,7 +1,7 @@
 ---
 title: Disclaimer
 permalink: /disclaimer/
-hero_image: /assets/backgrounds/disclaimer.jpg#
+hero_image: /assets/backgrounds/hero_disclaimer.jpg
 image_credit: "Markus Winkler"
 hero_overlay: true   # omit for photo only
 layout: base

@@ -1,8 +1,8 @@
 ---
 layout: base
 title: "Standplaatskarakteristieken van bossen"
-hero_image: /assets/backgrounds/bossen.jpg
-image_credit: "Yves Adams, Vilda"
+hero_image: /assets/backgrounds/hero_bossen.jpg
+image_credit: "Luc De Keersmaeker"
 # hero_overlay: true   # omit for photo only
 permalink: /standplaatsvereisten/bossen/
 toc: false
@@ -13,8 +13,8 @@ toc: false
  
    <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/91E0.jpg' | relative_url }}" alt="Elzenbroekbos">
-      <span class="card-attribution">© Yves Adams</span>
+      <img class="card-image" src="{{ '/assets/backgrounds/card_91E0.jpg' | relative_url }}" alt="91E0, Neigembos">
+      <span class="card-attribution">© Luc De Keersmaeker</span>
     </div>
     <h3 class="card-title">91E0</h3>
     <p class="card-excerpt">Standplaats-karakteristieken van 91E0</p>
@@ -23,8 +23,8 @@ toc: false
 
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/9120jpg' | relative_url }}" alt="Beukenbos">
-    <span class="card-attribution">© Yves Adams</span>
+      <img class="card-image" src="{{ '/assets/backgrounds/card_9120.jpg' | relative_url }}" alt="9120, Zoerselbos">
+    <span class="card-attribution">© Luc De Keersmaeker</span>
     </div>
     <h3 class="card-title">9120</h3>
     <p class="card-excerpt">Standplaats-karakteristieken van 9120</p>
@@ -33,8 +33,8 @@ toc: false
   
   <div class="card">
     <div class="card-image-wrapper">
-      <img class="card-image" src="{{ '/assets/backgrounds/9190.jpg' | relative_url }}" alt="Elzenbroekbos">
-      <span class="card-attribution">© Yves Adams</span>
+      <img class="card-image" src="{{ '/assets/backgrounds/card_9190.jpg' | relative_url }}" alt="9190, Sevendonckbos">
+      <span class="card-attribution">© Luc De Keersmaeker</span>
     </div>
     <h3 class="card-title">9190</h3>
     <p class="card-excerpt">Standplaats-karakteristieken van 9190</p>
