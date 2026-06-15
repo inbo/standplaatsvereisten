@@ -21,7 +21,7 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">Kusthabitats</h3>
-    <p class="card-excerpt">Standplaatskarakteristieken van kusthabitats</p>
+    <p class="card-excerpt">Standplaats-karakteristieken van kusthabitats</p>
     <a href="{{ '/standplaatsvereisten/kusthabitats/' | relative_url }}" class="btn">Learn more</a>
   </div>
 
@@ -31,7 +31,7 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
      <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">Duinen</h3>
-    <p class="card-excerpt">Standplaatskarakteristieken van duinen</p>
+    <p class="card-excerpt">Standplaats-karakteristieken van duinen</p>
     <a href="{{ '/standplaatsvereisten/duinen/' | relative_url }}" class="btn">Learn more</a>
   </div>
   
@@ -41,7 +41,7 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">Heide</h3>
-    <p class="card-excerpt">Standplaatskarakteristieken van heidetypes</p>
+    <p class="card-excerpt">Standplaats-karakteristieken van heidetypes</p>
     <a href="{{ '/standplaatsvereisten/heide/' | relative_url }}" class="btn">Learn more</a>
   </div>
   
@@ -51,7 +51,7 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">Graslanden</h3>
-    <p class="card-excerpt">Standplaatskarakteristieken van graslandtypes.</p>
+    <p class="card-excerpt">Standplaats-karakteristieken van graslandtypes.</p>
     <a href="{{ '/standplaatsvereisten/graslanden/' | relative_url }}" class="btn">Learn more</a>
   </div>
 
@@ -61,7 +61,7 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">Moerassen</h3>
-    <p class="card-excerpt">Standplaatskarakteristieken van moerastypes</p>
+    <p class="card-excerpt">Standplaats-karakteristieken van moerastypes</p>
     <a href="{{ '/standplaatsvereisten/moerassen/' | relative_url }}" class="btn">Learn more</a>
   </div>
 
@@ -71,7 +71,7 @@ Standplaatskarakteristieken zijn de ecologische 'paspoorten' van ons landschap. 
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">Bossen</h3>
-    <p class="card-excerpt">Standplaatskarakteristieken van bostypes</p>
+    <p class="card-excerpt">Standplaats-karakteristieken van bostypes</p>
     <a href="{{ '/standplaatsvereisten/bossen/' | relative_url }}" class="btn">Learn more</a>
   </div>
 

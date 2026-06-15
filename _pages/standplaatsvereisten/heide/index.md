@@ -16,7 +16,7 @@ toc: false
     <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">4010</h3>
-    <p class="card-excerpt">Standplaatskarakteristieken van 4010</p>
+    <p class="card-excerpt">Standplaats-karakteristieken van 4010</p>
     <a href="{{ '/standplaatsvereisten/heide/4010' | relative_url }}" class="btn">Learn more</a>
   </div>
 
@@ -26,7 +26,7 @@ toc: false
     <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">4030</h3>
-    <p class="card-excerpt">Standplaatskarakteristieken van 4030</p>
+    <p class="card-excerpt">Standplaats-karakteristieken van 4030</p>
     <a href="{{ '/standplaatsvereisten/heide/4030' | relative_url }}" class="btn">Learn more</a>
   </div>
 

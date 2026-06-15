@@ -16,7 +16,7 @@ toc: false
     <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">6230</h3>
-    <p class="card-excerpt">Standplaatskarakteristieken van 6230</p>
+    <p class="card-excerpt">Standplaats-karakteristieken van 6230</p>
     <a href="{{ '/standplaatsvereisten/graslanden/6230' | relative_url }}" class="btn">Learn more</a>
   </div>
 
@@ -26,7 +26,7 @@ toc: false
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">6410</h3>
-    <p class="card-excerpt">Standplaatskarakteristieken van 6410</p>
+    <p class="card-excerpt">Standplaats-karakteristieken van 6410</p>
     <a href="{{ '/standplaatsvereisten/graslanden/6410' | relative_url }}" class="btn">Learn more</a>
   </div>
 
@@ -36,7 +36,7 @@ toc: false
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">6430</h3>
-    <p class="card-excerpt">Standplaatskarakteristieken van 6430</p>
+    <p class="card-excerpt">Standplaats-karakteristieken van 6430</p>
     <a href="{{ '/standplaatsvereisten/graslanden/6430' | relative_url }}" class="btn">Learn more</a>
   </div>
   
@@ -46,7 +46,7 @@ toc: false
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">6510</h3>
-    <p class="card-excerpt">Standplaatskarakteristieken van 6510</p>
+    <p class="card-excerpt">Standplaats-karakteristieken van 6510</p>
     <a href="{{ '/standplaatsvereisten/graslanden/6510' | relative_url }}" class="btn">Learn more</a>
   </div>
 

@@ -16,7 +16,7 @@ toc: false
     <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">1330</h3>
-    <p class="card-excerpt">Standplaatskarakteristieken van 1330</p>
+    <p class="card-excerpt">Standplaats-karakteristieken van 1330</p>
     <a href="{{ '/standplaatsvereisten/kusthabitats/1330' | relative_url }}" class="btn">Learn more</a>
   </div>
   

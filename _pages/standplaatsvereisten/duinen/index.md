@@ -20,7 +20,7 @@ toc: false
     <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">2130</h3>
-    <p class="card-excerpt">Standplaatskarakteristieken van 2130.</p>
+    <p class="card-excerpt">Standplaats-karakteristieken van 2130.</p>
     <a href="{{ '/standplaatsvereisten/duinen/2130' | relative_url }}" class="btn">Learn more</a>
   </div>
   
@@ -30,7 +30,7 @@ toc: false
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">2190</h3>
-    <p class="card-excerpt">Standplaatskarakteristieken van 2190.</p>
+    <p class="card-excerpt">Standplaats-karakteristieken van 2190.</p>
     <a href="{{ '/standplaatsvereisten/duinen/2190' | relative_url }}" class="btn">Learn more</a>
   </div>
 

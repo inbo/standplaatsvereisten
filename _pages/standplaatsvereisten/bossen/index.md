@@ -17,7 +17,7 @@ toc: false
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">91E0</h3>
-    <p class="card-excerpt">Standplaatskarakteristieken van 91E0</p>
+    <p class="card-excerpt">Standplaats-karakteristieken van 91E0</p>
     <a href="{{ '/standplaatsvereisten/bossen/91E0' | relative_url }}" class="btn">Learn more</a>
   </div> 
 
@@ -27,7 +27,7 @@ toc: false
     <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">9120</h3>
-    <p class="card-excerpt">Standplaatskarakteristieken van 9120</p>
+    <p class="card-excerpt">Standplaats-karakteristieken van 9120</p>
     <a href="{{ '/standplaatsvereisten/bossen/9120' | relative_url }}" class="btn">Learn more</a>
   </div>
   
@@ -37,7 +37,7 @@ toc: false
       <span class="card-attribution">© Yves Adams</span>
     </div>
     <h3 class="card-title">9190</h3>
-    <p class="card-excerpt">Standplaatskarakteristieken van 9190</p>
+    <p class="card-excerpt">Standplaats-karakteristieken van 9190</p>
     <a href="{{ '/standplaatsvereisten/bossen/9190' | relative_url }}" class="btn">Learn more</a>
   </div>
 
